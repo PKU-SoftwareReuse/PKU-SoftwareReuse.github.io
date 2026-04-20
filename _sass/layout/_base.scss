@@ -2,8 +2,6 @@
    BASE ELEMENTS
    ========================================================================== */
 html {
-  /* sticky footer fix */
-  position: relative;
   min-height: 100%;
 }
 
@@ -14,7 +12,9 @@ body {
 
   margin: 0;
   padding: $masthead-height 0 0;
-  padding-bottom: 9em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: $global-font-family;
   line-height: 1.5;
 
@@ -22,6 +22,10 @@ body {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+}
+
+.page__content-shell {
+  flex: 1 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {

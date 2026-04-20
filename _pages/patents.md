@@ -7,16 +7,20 @@ permalink: /patents/
 
 {% include base_path %}
 
-## 专利
+<p>以下按类别与年份汇总课题组相关知识产权成果。</p>
 
-{% assign patents = site.patents | where: "category", "patents" | sort: "year" | reverse %}
-{% for post in patents %}
-  {% include archive-single-patent.html %}
-{% endfor %}
+<section class="patent-group">
+  <h2>专利</h2>
+  {% assign patents = site.patents | where: "category", "patents" | sort: "year" | reverse %}
+  {% for post in patents %}
+    {% include archive-single-patent.html %}
+  {% endfor %}
+</section>
 
-## 软件著作权
-
-{% assign software = site.patents | where: "category", "software" | sort: "year" | reverse %}
-{% for post in software %}
-  {% include archive-single-patent.html %}
-{% endfor %}
+<section class="patent-group">
+  <h2>软件著作权</h2>
+  {% assign software = site.patents | where: "category", "software" | sort: "year" | reverse %}
+  {% for post in software %}
+    {% include archive-single-patent.html %}
+  {% endfor %}
+</section>
