@@ -7,6 +7,8 @@ permalink: /news/
 
 {% include base_path %}
 
+<p>本页面汇总课题组近期新闻与更新。</p>
+
 {% assign posts = site.posts | sort: "date" | reverse %}
 {% for post in posts %}
 <div class="news-item">

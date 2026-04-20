@@ -6,126 +6,65 @@ author_profile: false
 
 {% include base_path %}
 
-## 欢迎来到软件复用研究组
+<div class="hero-panel">
+  <p><strong>软件复用研究组（Software Reuse Research Group）</strong>致力于面向复杂软件系统的理论研究与工程实践，重点关注软件复用、智能化软件工程与知识建模等方向。我们以“可复用、可演进、可验证”为核心理念，推动前沿方法在真实软件场景中的落地。</p>
+</div>
 
-软件复用研究组（Software Reuse Research Group）隶属于北京大学，是一支专注于软件工程、人工智能和知识图谱领域前沿研究的高水平科研团队。
+<p class="section-intro">我们坚持以科研问题驱动工程实践，通过跨方向合作构建可迁移、可复现的研究成果。</p>
 
----
+<!-- <div class="quick-links">
+  <a href="{{ base_path }}/people/">团队成员</a>
+  <a href="{{ base_path }}/publications/">论文发表</a>
+  <a href="{{ base_path }}/patents/">专利软著</a>
+  <a href="{{ base_path }}/news/">最新动态</a>
+</div> -->
 
 ## 研究方向
 
-### 软件工程
+<div class="academic-grid">
+  <article class="academic-card">
+    <h3>软件复用与软件工程</h3>
+    <p>关注构件复用、产品线工程、演化与维护方法，提升大规模系统开发效率与质量保障能力。</p>
+  </article>
+  <article class="academic-card">
+    <h3>AI for Software Engineering</h3>
+    <p>探索机器学习与大模型在代码理解、自动化开发、程序分析与工程协作中的应用路径。</p>
+  </article>
+  <article class="academic-card">
+    <h3>知识图谱与智能系统</h3>
+    <p>研究知识表示、图谱构建与推理机制，支撑知识增强的软件智能化方法。</p>
+  </article>
+</div>
 
-软件复用是软件工程领域的重要研究方向，旨在通过复用已有的软件构件来提高软件开发效率和质量。
+## 团队概览
 
-**研究课题：**
-- 软件构件技术
-- 软件产品线工程
-- 面向服务的架构（SOA）
-- 云原生软件工程
+团队由教授/研究员、博士研究生、硕士研究生与本科生构成，围绕软件工程核心问题开展协同研究与联合培养。具体成员信息可在[团队成员页面]({{ base_path }}/people/)查看。
 
-### 人工智能
 
-人工智能是当前科技发展的热点，我们关注如何将AI技术应用于软件工程，以及如何开发智能软件系统。
-
-**研究课题：**
-- 机器学习与深度学习
-- 自然语言处理
-- 计算机视觉
-- 智能推荐系统
-
-### 知识图谱
-
-知识图谱是一种大规模语义网络，用于描述现实世界中的实体及其关系。
-
-**研究课题：**
-- 知识表示与推理
-- 知识图谱构建
-- 知识增强的AI系统
-- 知识图谱应用
-
----
-
-## 团队组成
-
-| 角色 | 人数 |
-|:---:|:---:|
-| 负责人（教授/研究员） | 2名 |
-| 博士研究生 | 约10名 |
-| 硕士研究生 | 约6名 |
-| 本科生 | 若干名 |
-
-### 负责人
-
-| 姓名 | 职称 | 研究方向 |
-|:---:|:---:|:---:|
-| [谢冰](/people/xie-bing/) | 教授 | 软件复用、软件工程 |
-| [邹艳珍](/people/zou-yanzhen/) | 研究员 | 知识图谱、人工智能 |
-
----
-
-## 招生信息
-
-软件复用研究组常年招收博士研究生、硕士研究生和本科生。
-
-### 博士/硕士研究生
-
-欢迎计算机相关专业背景的学生报考，有软件工程、人工智能或知识图谱研究兴趣者优先。
-
-### 本科生
-
-欢迎对软件工程研究感兴趣的同学加入实验室参与科研项目。
-
----
 
 ## 最新动态
 
-{% assign posts = site.posts | sort: "date" | reverse | limit: 5 %}
+{% assign posts = site.posts | sort: "date" | reverse | limit: 6 %}
 {% if posts.size > 0 %}
-<ul>
+<ul class="news-list">
   {% for post in posts %}
-    <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> — <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></li>
+    <li>
+      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    </li>
   {% endfor %}
 </ul>
 {% else %}
-<p>暂无最新动态。请关注我们的 [Publications](/publications/) 页面。</p>
+<p>暂无最新动态。欢迎查看 <a href="{{ base_path }}/publications/">论文页面</a> 获取近期成果。</p>
 {% endif %}
 
----
+## 招生与合作
 
-## 联系我们
+课题组长期欢迎具有软件工程、人工智能或相关背景的同学加入，支持本科科研训练、硕士与博士培养，也欢迎学术与产业合作交流。
 
-- 邹老师邮箱：zouyz@pku.edu.cn
+## 联系方式
+
+- 邮箱：zouyz@pku.edu.cn
 - 地址：北京大学理科一号楼
 
-欢迎关注我们的研究工作，如有任何问题或合作意向，请随时与我们联系。
-
-<style>
-section {
-  margin-bottom: 40px;
-}
-h3 {
-  color: #333;
-  padding-bottom: 10px;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-}
-th, td {
-  border: 1px solid #ddd;
-  padding: 12px;
-  text-align: center;
-}
-th {
-  background-color: #f5f5f5;
-}
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-li {
-  margin: 10px 0;
-}
-</style>
+欢迎对课题组研究方向感兴趣的同学与同行联系交流。
