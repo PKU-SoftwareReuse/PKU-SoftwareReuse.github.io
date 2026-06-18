@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "王玥"
-author: "Wang Yue"
+title: "华晨彦"
+author: "Chenyan Hua"
 author_profile: true
 ---
 
@@ -9,7 +9,6 @@ author_profile: true
 
 ## 个人简介
 
-王玥，博士。
+华晨彦，硕士。
 
 ---
-

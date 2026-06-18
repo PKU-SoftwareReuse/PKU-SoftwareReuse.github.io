@@ -1,11 +1,15 @@
 ---
 layout: single
-title: "王晨旭"
-author: "Wang Chenxu"
+title: "魏日升"
+author: "Risheng Wei"
 author_profile: true
 ---
 
 {% include base_path %}
 
 ## 个人简介
-软件复用研究组成员
+
+魏日升，。
+
+---
+

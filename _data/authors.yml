@@ -177,7 +177,7 @@ Zhu Yifeng:
   identity_type: 博士生
   identity_type_note: 直博
   grade: 2025级
-  avatar_big: better_zyf.png
+  avatar_big: mini_zyf.png
   avatar_small: yifengzhu.jpg
   bio: 软件复用研究组博士研究生（直博），研究方向为软件工程
   employer: 北京大学
@@ -212,7 +212,7 @@ Xiong Bo:
   identity_type_note: 直博
   grade: 2026级
   avatar_big: xbxb.jpg
-  avatar_small: xbxb.jpg
+  avatar_small: profile.png
   bio: 软件复用研究组博士研究生（直博），研究方向为软件工程
   employer: 武汉大学
   email: ''
@@ -448,3 +448,207 @@ Pan Xinglu:
   research: ''
   project: ''
   order: 403
+Chenxiao Liu:
+  name: 刘陈晓
+  key: Chenxiao Liu
+  identity_type: 硕士
+  identity_type_note: ''
+  grade: 2024届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 404
+Chunyang Ling:
+  name: 凌春阳
+  key: Chunyang Ling
+  identity_type: 硕士
+  identity_type_note: ''
+  grade: 2021届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 405
+Ying Qian:
+  name: 钱莹
+  key: Ying Qian
+  identity_type: 硕士
+  identity_type_note: ''
+  grade: 2020届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 406
+Chenyan Hua:
+  name: 华晨彦
+  key: Chenyan Hua
+  identity_type: 硕士
+  identity_type_note: ''
+  grade: 2019届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 407
+Jinan Ni:
+  name: 倪际楠
+  key: Jinan Ni
+  identity_type: 硕士
+  identity_type_note: ''
+  grade: 2018届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 410
+Yuxiang Luo:
+  name: 罗宇翔
+  key: Yuxiang Luo
+  identity_type: 硕士
+  identity_type_note: ''
+  grade: 2017届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 413
+Risheng Wei:
+  name: 魏日升
+  key: Risheng Wei
+  identity_type: 硕士
+  identity_type_note: ''
+  grade: 2023届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 407
+Shijun Wu:
+  name: 伍仕骏
+  key: Shijun Wu
+  identity_type: 硕士
+  identity_type_note: ''
+  grade: 2023届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 410
+Min Wang:
+  name: 王敏
+  key: Min Wang
+  identity_type: 博士
+  identity_type_note: ''
+  grade: 2022届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 410
+Yingkui Cao:
+  name: 曹英魁
+  key: Yingkui Cao
+  identity_type: 博士
+  identity_type_note: ''
+  grade: 2021届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 412
+Zixiao Zhu:
+  name: 朱子骁
+  key: Zixiao Zhu
+  identity_type: 博士
+  identity_type_note: ''
+  grade: 2018届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 415
+Meng Li:
+  name: 李萌
+  key: Meng Li
+  identity_type: 博士
+  identity_type_note: ''
+  grade: 2014届
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 420

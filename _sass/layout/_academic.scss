@@ -186,6 +186,23 @@ body {
   margin-bottom: 0;
 }
 
+.home-intro {
+  margin-top: 0.4rem;
+}
+
+.home-intro p {
+  max-width: 48rem;
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.85;
+}
+
+@media (max-width: 52em) {
+  .home-intro {
+  margin-top:0;
+  }
+}
+
 .academic-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
