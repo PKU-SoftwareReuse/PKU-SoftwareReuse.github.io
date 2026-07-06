@@ -363,40 +363,6 @@ Li Wanning:
   research: 软件工程
   project: OS驱动迁移
   order: 302
-Wang Chenxu:
-  name: 王晨旭
-  key: Wang Chenxu
-  identity_type: 本科生
-  identity_type_note: 北京大学
-  grade: 大二
-  avatar_big: profile.png
-  avatar_small: profile.png
-  bio: 软件复用研究组成员
-  employer: 北京大学
-  email: 2400013225@stu.pku.edu.cn
-  github: ''
-  orcid: ''
-  googlescholar: ''
-  research: ''
-  project: ''
-  order: 305
-Feng Yuanning:
-  name: 冯元宁
-  key: Feng Yuanning
-  identity_type: 本科生
-  identity_type_note: 华中科技大学
-  grade: 大三
-  avatar_big: profile.png
-  avatar_small: profile.png
-  bio: 软件复用研究组成员
-  employer: 华中科技大学
-  email: ''
-  github: ''
-  orcid: ''
-  googlescholar: ''
-  research: 软件工程
-  project: 强化学习
-  order: 304
 Wang Yue:
   name: 王玥
   key: Wang Yue
