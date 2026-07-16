@@ -165,7 +165,8 @@ permalink: /people/
       {% unless forloop.last %}
         {% assign key = group_keys[i] %}
         {% assign order = group_orders[i] %}
-        {% assign tuple = order | append: "|" | append: key %}
+        {% assign sortable_order = order | plus: 10000 %}
+        {% assign tuple = sortable_order | append: "|" | append: key %}
         {% assign tuples = tuples | push: tuple %}
       {% endunless %}
     {% endfor %}
@@ -180,8 +181,13 @@ permalink: /people/
           {% assign data = site.data.authors[key] %}
           {% assign person_file = data.key | replace: " ", "-" %}
           {% assign first_char = data.name | slice: 0 %}
+          {% assign person_path = "/people/" | append: person_file | append: "/" %}
+          {% assign person_href = person_path | prepend: base_path %}
+          {% if data.external_url and data.external_url != "" %}
+            {% assign person_href = data.external_url %}
+          {% endif %}
 
-          <a href="{{ base_path }}/people/{{ person_file }}/" class="person-card">
+          <a href="{{ person_href | escape }}" class="person-card"{% if data.external_url and data.external_url != "" %} rel="external"{% endif %}>
             {%- comment -%} 使用 avatar 字段，若为空或 profile.png 则显示名字首字 {%- endcomment -%}
             {% if data.avatar_small and data.avatar_small != "profile.png" and data.avatar_small != "" %}
               <img src="{{ base_path }}/avatars/{{ data.avatar_small }}" alt="{{ data.name }}" class="person-avatar">

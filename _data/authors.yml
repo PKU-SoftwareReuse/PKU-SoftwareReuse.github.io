@@ -48,9 +48,9 @@ Zou Yanzhen:
 Ma Zexiong:
   name: 马泽雄
   key: Ma Zexiong
-  identity_type: 博士生
+  identity_type: 博士
   identity_type_note: 直博
-  grade: 2021级
+  grade: 2026届
   avatar_big: profile.png
   avatar_small: profile.png
   bio: 软件复用研究组博士研究生（直博），研究方向为软件工程
@@ -61,7 +61,7 @@ Ma Zexiong:
   googlescholar: ''
   research: 软件工程
   project: ''
-  order: 101
+  order: 401
 Li Yuxuan:
   name: 李宇轩
   key: Li Yuxuan
@@ -75,7 +75,7 @@ Li Yuxuan:
   avatar_small: profile.png
   research: 软件工程
   project: 502所
-  order: 102
+  order: 101
 Yuan Haizhuo:
   name: 袁海卓
   key: Yuan Haizhuo
@@ -89,7 +89,7 @@ Yuan Haizhuo:
   avatar_small: profile.png
   research: 软件工程
   project: 系统版本迁移
-  order: 103
+  order: 102
 Wang Junfeng:
   name: 王俊枫
   key: Wang Junfeng
@@ -103,7 +103,7 @@ Wang Junfeng:
   avatar_small: profile.png
   research: 软件工程
   project: ''
-  order: 104
+  order: 103
 Deng Tongwei:
   name: 邓同蔚
   key: Deng Tongwei
@@ -117,7 +117,7 @@ Deng Tongwei:
   avatar_small: profile.png
   research: 软件工程
   project: 字节
-  order: 105
+  order: 104
 Yan Siqiao:
   name: 闫思桥
   key: Yan Siqiao
@@ -134,7 +134,7 @@ Yan Siqiao:
   googlescholar: ''
   research: 软件工程
   project: 502所
-  order: 106
+  order: 105
 Yan Runbang:
   name: 闫润邦
   key: Yan Runbang
@@ -151,7 +151,7 @@ Yan Runbang:
   googlescholar: ''
   research: 软件工程
   project: ''
-  order: 107
+  order: 106
 Li Xutian:
   name: 李旭田
   key: Li Xutian
@@ -170,7 +170,7 @@ Li Xutian:
   googlescholar: https://scholar.google.com/citations?user=W79SiQYAAAAJ
   research: "软件工程\r\n人工智能"
   project: 低代码
-  order: 108
+  order: 107
 Zhu Yifeng:
   name: 朱奕凤
   key: Zhu Yifeng
@@ -187,7 +187,7 @@ Zhu Yifeng:
   googlescholar: ''
   research: "人工智能\r\n软件工程"
   project: 低代码
-  order: 109
+  order: 108
 Zhu Jinyu:
   name: 朱锦瑜
   key: Zhu Jinyu
@@ -204,7 +204,7 @@ Zhu Jinyu:
   googlescholar: ''
   research: 软件工程
   project: 502所
-  order: 110
+  order: 301
 Xiong Bo:
   name: 熊博
   key: Xiong Bo
@@ -221,13 +221,13 @@ Xiong Bo:
   googlescholar: ''
   research: 软件工程
   project: 低代码
-  order: 111
+  order: 302
 Zhao Xianlin:
   name: 赵衔麟
   key: Zhao Xianlin
-  identity_type: 硕士生
+  identity_type: 硕士
   identity_type_note: ''
-  grade: 2023级
+  grade: 2026届
   avatar_big: zxl_fse_issta.jpg
   avatar_small: zxl_mimic.jpg
   bio: 软件复用研究组硕士研究生，研究方向为软件工程
@@ -238,7 +238,7 @@ Zhao Xianlin:
   googlescholar: ''
   research: 软件工程
   project: 低代码
-  order: 201
+  order: 402
 Qiu Xiaofei:
   name: 邱小非
   key: Qiu Xiaofei
@@ -252,7 +252,7 @@ Qiu Xiaofei:
   avatar_small: profile.png
   research: 软件工程
   project: 502所
-  order: 202
+  order: 201
 Li Kunze:
   name: 李坤泽
   key: Li Kunze
@@ -266,7 +266,7 @@ Li Kunze:
   avatar_small: profile.png
   research: 软件工程
   project: 低代码
-  order: 203
+  order: 202
 Song Chunfeng:
   name: 宋春风
   key: Song Chunfeng
@@ -280,7 +280,7 @@ Song Chunfeng:
   avatar_small: profile.png
   research: 软件工程
   project: OS驱动迁移
-  order: 204
+  order: 203
 Sun Jiaxuan:
   name: 孙嘉旋
   key: Sun Jiaxuan
@@ -294,7 +294,7 @@ Sun Jiaxuan:
   avatar_small: profile.png
   research: 软件工程
   project: OS驱动迁移
-  order: 205
+  order: 204
 Yang Hongyi:
   name: 杨泓奕
   key: Yang Hongyi
@@ -311,7 +311,7 @@ Yang Hongyi:
   googlescholar: ''
   research: 软件工程
   project: AI.OS
-  order: 206
+  order: 303
 Su Zhengwei:
   name: 苏政玮
   key: Su Zhengwei
@@ -328,7 +328,7 @@ Su Zhengwei:
   googlescholar: ''
   research: 软件工程
   project: OS驱动迁移
-  order: 207
+  order: 304
 Shi Yujie:
   name: 史宇颉
   key: Shi Yujie
@@ -345,7 +345,7 @@ Shi Yujie:
   googlescholar: ''
   research: 软件工程
   project: 低代码
-  order: 301
+  order: 305
 Li Wanning:
   name: 李婉宁
   key: Li Wanning
@@ -362,7 +362,7 @@ Li Wanning:
   googlescholar: ''
   research: 软件工程
   project: OS驱动迁移
-  order: 302
+  order: 306
 Wang Yue:
   name: 王玥
   key: Wang Yue
@@ -379,7 +379,7 @@ Wang Yue:
   googlescholar: ''
   research: ''
   project: ''
-  order: 401
+  order: 403
 Chang Wenhui:
   name: 常文辉
   key: Chang Wenhui
@@ -396,7 +396,7 @@ Chang Wenhui:
   googlescholar: ''
   research: ''
   project: ''
-  order: 402
+  order: 404
 Pan Xinglu:
   name: 潘兴禄
   key: Pan Xinglu
@@ -413,7 +413,7 @@ Pan Xinglu:
   googlescholar: ''
   research: ''
   project: ''
-  order: 403
+  order: 405
 Chenxiao Liu:
   name: 刘陈晓
   key: Chenxiao Liu
@@ -430,7 +430,7 @@ Chenxiao Liu:
   googlescholar: ''
   research: ''
   project: ''
-  order: 404
+  order: 406
 Chunyang Ling:
   name: 凌春阳
   key: Chunyang Ling
@@ -447,7 +447,7 @@ Chunyang Ling:
   googlescholar: ''
   research: ''
   project: ''
-  order: 409
+  order: 411
 Ying Qian:
   name: 钱莹
   key: Ying Qian
@@ -464,7 +464,7 @@ Ying Qian:
   googlescholar: ''
   research: ''
   project: ''
-  order: 410
+  order: 412
 Chenyan Hua:
   name: 华晨彦
   key: Chenyan Hua
@@ -481,7 +481,7 @@ Chenyan Hua:
   googlescholar: ''
   research: ''
   project: ''
-  order: 411
+  order: 413
 Jinan Ni:
   name: 倪际楠
   key: Jinan Ni
@@ -498,7 +498,7 @@ Jinan Ni:
   googlescholar: ''
   research: ''
   project: ''
-  order: 412
+  order: 414
 Yuxiang Luo:
   name: 罗宇翔
   key: Yuxiang Luo
@@ -515,7 +515,7 @@ Yuxiang Luo:
   googlescholar: ''
   research: ''
   project: ''
-  order: 414
+  order: 416
 Risheng Wei:
   name: 魏日升
   key: Risheng Wei
@@ -532,7 +532,7 @@ Risheng Wei:
   googlescholar: ''
   research: ''
   project: ''
-  order: 405
+  order: 407
 Shijun Wu:
   name: 伍仕骏
   key: Shijun Wu
@@ -549,7 +549,7 @@ Shijun Wu:
   googlescholar: ''
   research: ''
   project: ''
-  order: 406
+  order: 408
 Min Wang:
   name: 王敏
   key: Min Wang
@@ -566,7 +566,7 @@ Min Wang:
   googlescholar: ''
   research: ''
   project: ''
-  order: 407
+  order: 409
 Yingkui Cao:
   name: 曹英魁
   key: Yingkui Cao
@@ -583,7 +583,7 @@ Yingkui Cao:
   googlescholar: ''
   research: ''
   project: ''
-  order: 408
+  order: 410
 Zixiao Zhu:
   name: 朱子骁
   key: Zixiao Zhu
@@ -600,7 +600,7 @@ Zixiao Zhu:
   googlescholar: ''
   research: ''
   project: ''
-  order: 413
+  order: 415
 Meng Li:
   name: 李萌
   key: Meng Li
@@ -617,4 +617,38 @@ Meng Li:
   googlescholar: ''
   research: ''
   project: ''
-  order: 415
+  order: 417
+Chen Xuanyan:
+  name: 陈宣言
+  key: Chen Xuanyan
+  identity_type: 本科生
+  identity_type_note: 直博
+  grade: 大三
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: 北京理工大学
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 307
+Wang Jingbo:
+  name: 王靖博
+  key: Wang Jingbo
+  identity_type: 本科生
+  identity_type_note: ''
+  grade: 大三
+  avatar_big: ''
+  avatar_small: ''
+  bio: ''
+  employer: ''
+  email: ''
+  github: ''
+  orcid: ''
+  googlescholar: ''
+  research: ''
+  project: ''
+  order: 308
