@@ -1,0 +1,27 @@
+name: Validate site
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --trace
+      - name: Reject retired template pages
+        run: |
+          test ! -e _site/cv/index.html
+          test ! -e _site/talks/index.html
+          test ! -e _site/teaching/index.html
+          test ! -e _site/portfolio/index.html

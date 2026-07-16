@@ -43,4 +43,4 @@ RUN bundle config set jobs 1
 RUN bundle install
 
 # Command to serve the Jekyll site via bundler context
-CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-w", "--config", "_config.yml,_config_docker.yml"]
+CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-w", "--config", "_config.yml,_config_docker.yml", "--destination", "/tmp/jekyll-preview"]
