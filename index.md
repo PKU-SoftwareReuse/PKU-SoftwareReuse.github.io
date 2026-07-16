@@ -59,7 +59,7 @@ permalink: /
           {% for leader_key in leader_keys %}
             {% assign leader = site.data.authors[leader_key] %}
             {% assign leader_slug = leader.key | replace: " ", "-" %}
-            <a class="home-leader" href="{{ base_path }}/people/{{ leader_slug }}/">
+            <a class="home-leader home-leader--{{ leader_slug | downcase }}" href="{{ base_path }}/people/{{ leader_slug }}/">
               <img src="{{ base_path }}/avatars/{{ leader.avatar_small }}" alt="{{ leader.name }}">
               <span><strong>{{ leader.name }}</strong><small>{{ leader.identity_type }}{% if leader.identity_type_note != '' %} · {{ leader.identity_type_note }}{% endif %}</small></span>
               <i class="fas fa-arrow-right" aria-hidden="true"></i>

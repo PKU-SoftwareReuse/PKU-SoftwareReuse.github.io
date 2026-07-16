@@ -604,8 +604,19 @@ body.nav-open {
   width: 54px;
   height: 54px;
   object-fit: cover;
+  object-position: center 18%;
   border-radius: 5px;
   transition: transform 320ms cubic-bezier(0.22, 1, 0.36, 1), filter 320ms ease;
+}
+
+.home-leader--xie-bing img,
+.person-avatar--xie-bing {
+  object-position: center 18%;
+}
+
+.home-leader--zou-yanzhen img,
+.person-avatar--zou-yanzhen {
+  object-position: center 20%;
 }
 
 .home-leader:hover img {
@@ -1382,6 +1393,12 @@ body.nav-open {
   margin: 0;
 }
 
+.people-grid--leaders {
+  grid-template-columns: repeat(2, minmax(15rem, 20rem));
+  max-width: 42rem;
+  gap: 1.25rem;
+}
+
 .person-card {
   height: 100%;
   min-height: 14.5rem;
@@ -1396,6 +1413,12 @@ body.nav-open {
   text-align: center;
   text-decoration: none !important;
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.person-card--leader {
+  min-height: 19rem;
+  padding: 1.35rem 1.1rem 1.2rem;
+  border-top: 3px solid var(--lab-wine);
 }
 
 .person-card:hover {
@@ -1418,6 +1441,24 @@ body.nav-open {
 .person-avatar {
   object-fit: cover;
   background: #edf1f4;
+}
+
+.person-avatar--leader {
+  width: 9rem;
+  height: 9rem;
+  flex-basis: 9rem;
+  margin-bottom: 1rem;
+  border-width: 4px;
+  object-position: center 18%;
+}
+
+.person-card--leader .person-name {
+  font-size: 1.15rem;
+}
+
+.person-card--leader .person-identity {
+  margin-top: 0.55rem;
+  font-size: 0.76rem;
 }
 
 .person-avatar-placeholder {
@@ -2159,6 +2200,11 @@ body.nav-open {
     gap: 0.7rem;
   }
 
+  .people-grid--leaders {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: none;
+  }
+
   .person-card {
     min-height: 13.4rem;
     padding: 1rem 0.55rem;
@@ -2169,6 +2215,17 @@ body.nav-open {
     width: 5.5rem;
     height: 5.5rem;
     flex-basis: 5.5rem;
+  }
+
+  .person-card--leader {
+    min-height: 16.5rem;
+    padding: 1rem 0.55rem;
+  }
+
+  .person-avatar--leader {
+    width: 6.5rem;
+    height: 6.5rem;
+    flex-basis: 6.5rem;
   }
 
   .publication-year-filter {

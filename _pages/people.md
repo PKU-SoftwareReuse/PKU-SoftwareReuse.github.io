@@ -77,9 +77,9 @@ permalink: /people/
     {% endfor %}
     {% assign sorted_tuples = tuples | sort %}
 
-  <div class="people-section">
+  <div class="people-section{% if group_name == '负责人' %} people-section--leaders{% endif %}">
       <h2>{{ group_name }}</h2>
-      <ul class="people-grid">
+      <ul class="people-grid{% if group_name == '负责人' %} people-grid--leaders{% endif %}">
         {% for tuple in sorted_tuples %}
           {% assign parts = tuple | split: "|" %}
           {% assign key = parts[1] %}
@@ -97,10 +97,10 @@ permalink: /people/
           {% endif %}
 
           <li>
-          <a href="{{ person_href | escape }}" class="person-card"{% if data.external_url and data.external_url != "" %} rel="external"{% endif %}>
+          <a href="{{ person_href | escape }}" class="person-card{% if group_name == '负责人' %} person-card--leader{% endif %}"{% if data.external_url and data.external_url != "" %} rel="external"{% endif %}>
             {%- comment -%} 使用 avatar 字段，若为空或 profile.png 则显示名字首字 {%- endcomment -%}
             {% if card_avatar and card_avatar != "profile.png" and card_avatar != "" %}
-              <img src="{{ base_path }}/avatars/{{ card_avatar }}" alt="{{ data.name }}" class="person-avatar">
+              <img src="{{ base_path }}/avatars/{{ card_avatar }}" alt="{{ data.name }}" class="person-avatar{% if group_name == '负责人' %} person-avatar--leader person-avatar--{{ person_file | downcase }}{% endif %}">
             {% else %}
               <div class="person-avatar-placeholder">{{ first_char }}</div>
             {% endif %}
