@@ -49,10 +49,10 @@ Ma Zexiong:
   name: 马泽雄
   key: Ma Zexiong
   identity_type: 博士
-  identity_type_note: 直博
+  identity_type_note: ''
   grade: 2026届
   avatar_big: profile.png
-  avatar_small: profile.png
+  avatar_small: ma-zexiong-avatar-list.webp
   bio: 软件复用研究组博士研究生（直博），研究方向为软件工程
   employer: 北京大学
   email: ''
@@ -62,6 +62,7 @@ Ma Zexiong:
   research: 软件工程
   project: ''
   order: 401
+  external_url: https://mizersy.github.io/
 Li Yuxuan:
   name: 李宇轩
   key: Li Yuxuan

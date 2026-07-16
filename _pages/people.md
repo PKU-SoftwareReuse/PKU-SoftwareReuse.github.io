@@ -7,101 +7,6 @@ permalink: /people/
 
 {% include base_path %}
 
-<style>
-.people-section {
-  margin-bottom: 50px;
-}
-
-.people-section h2 {
-  font-size: 1.5rem;
-  color: #333;
-  padding-bottom: 10px;
-  margin-bottom: 25px;
-}
-
-.people-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 25px;
-  padding: 0;
-  list-style: none;
-}
-
-.person-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px 15px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  transition: transform 0.2s, box-shadow 0.2s;
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-}
-
-.person-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
-}
-
-.person-avatar {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 15px;
-  border: 3px solid #e8e8e8;
-  background-color: #f0f0f0;
-}
-
-.person-avatar-placeholder {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-  border: 3px solid #e8e8e8;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.person-name {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 8px;
-}
-
-.person-identity {
-  display: inline-block;
-  padding: 4px 12px;
-  background: #f0f7ff;
-  color: #4a90d9;
-  border-radius: 12px;
-  font-size: 0.8rem;
-  margin-bottom: 4px;
-}
-
-.person-grade {
-  font-size: 0.85rem;
-  color: #666;
-  line-height: 1.4;
-  margin-bottom: 4px;
-}
-
-.section-divider {
-  margin: 15px 0;
-  border: 0;
-  border-top: 1px dashed #e0e0e0;
-}
-</style>
-
 {%- comment -%}
 分组顺序定义和 identity_type 映射
 {%- endcomment -%}
@@ -181,16 +86,21 @@ permalink: /people/
           {% assign data = site.data.authors[key] %}
           {% assign person_file = data.key | replace: " ", "-" %}
           {% assign first_char = data.name | slice: 0 %}
+          {% assign card_avatar = data.avatar_small %}
+          {% if card_avatar == "profile.png" and data.avatar_big and data.avatar_big != "profile.png" %}
+            {% assign card_avatar = data.avatar_big %}
+          {% endif %}
           {% assign person_path = "/people/" | append: person_file | append: "/" %}
           {% assign person_href = person_path | prepend: base_path %}
           {% if data.external_url and data.external_url != "" %}
             {% assign person_href = data.external_url %}
           {% endif %}
 
+          <li>
           <a href="{{ person_href | escape }}" class="person-card"{% if data.external_url and data.external_url != "" %} rel="external"{% endif %}>
             {%- comment -%} 使用 avatar 字段，若为空或 profile.png 则显示名字首字 {%- endcomment -%}
-            {% if data.avatar_small and data.avatar_small != "profile.png" and data.avatar_small != "" %}
-              <img src="{{ base_path }}/avatars/{{ data.avatar_small }}" alt="{{ data.name }}" class="person-avatar">
+            {% if card_avatar and card_avatar != "profile.png" and card_avatar != "" %}
+              <img src="{{ base_path }}/avatars/{{ card_avatar }}" alt="{{ data.name }}" class="person-avatar">
             {% else %}
               <div class="person-avatar-placeholder">{{ first_char }}</div>
             {% endif %}
@@ -209,6 +119,7 @@ permalink: /people/
               <div class="person-grade">{{ data.grade }}</div>
             {% endif %}
           </a>
+          </li>
         {% endfor %}
       </ul>
     </div>
@@ -217,13 +128,12 @@ permalink: /people/
 {% endfor %}
 
 
-## 招生与合作
-
-课题组长期欢迎具有软件工程、人工智能或相关背景的同学加入，支持本科科研训练、硕士与博士培养，也欢迎学术与产业合作交流。
-
-## 联系方式
-
-- 邮箱：zouyz@pku.edu.cn
-- 地址：北京大学理科一号楼
-
-欢迎对课题组研究方向感兴趣的同学与同行联系交流。
+<section id="join-us" class="join-panel">
+  <h2>招生与合作</h2>
+  <p>课题组长期欢迎具有软件工程、人工智能或相关背景的同学加入，支持本科科研训练、硕士与博士培养，也欢迎学术与产业合作交流。</p>
+  <p>欢迎对课题组研究方向感兴趣的同学与同行联系。</p>
+  <div class="join-panel__contact">
+    <span><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:zouyz@pku.edu.cn">zouyz@pku.edu.cn</a></span>
+    <span><i class="fas fa-location-dot" aria-hidden="true"></i>北京大学理科一号楼</span>
+  </div>
+</section>

@@ -1,0 +1,24 @@
+projects:
+  - key: featx
+    label: "智能代码编辑"
+    title: "FeatX"
+    description: "从功能特征视角理解仓库级代码，面向复杂代码库提供智能编辑与演进支持。"
+    icon: "fa-code-branch"
+    image: "/images/home/featx.webp"
+    url: "/patents/"
+
+  - key: flowgen
+    label: "低代码智能化"
+    title: "FlowGen"
+    description: "面向低代码场景的工作流智能生成系统，连接软件知识、业务意图与工程流程。"
+    icon: "fa-wand-magic-sparkles"
+    image: "/images/home/flowgen.webp"
+    url: "/patents/"
+
+  - key: knowledge-graph
+    label: "知识增强软件工程"
+    title: "软件知识图谱"
+    description: "围绕软件知识的抽取、融合、检索与推理，为智能开发工具提供可复用的知识支撑。"
+    icon: "fa-diagram-project"
+    image: "/images/home/knowledge-graph.webp"
+    url: "/research/"

@@ -1,20 +1,31 @@
 {% include base_path %}
+<div class="site-footer">
+  <div class="site-footer__brand">
+    <a href="{{ base_path }}/" aria-label="返回软件复用研究组首页">
+      <img src="{{ base_path }}/images/group_logo_trans_big.png" alt="">
+      <span><strong>软件复用研究组</strong><small>Software Reuse Research Group</small></span>
+    </a>
+    <p>面向复杂软件系统，研究软件复用、智能化软件工程与软件知识建模。</p>
+  </div>
 
-<!-- {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-  </ul>
+  <div class="site-footer__nav">
+    <h2>快速访问</h2>
+    <ul>
+      <li><a href="{{ base_path }}/research/">研究方向</a></li>
+      <li><a href="{{ base_path }}/people/">团队成员</a></li>
+      <li><a href="{{ base_path }}/publications/">论文发表</a></li>
+      <li><a href="{{ base_path }}/patents/">专利软著</a></li>
+    </ul>
+  </div>
+
+  <div class="site-footer__contact">
+    <h2>联系我们</h2>
+    <p><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:zouyz@pku.edu.cn">zouyz@pku.edu.cn</a></p>
+    <p><i class="fas fa-location-dot" aria-hidden="true"></i><span>北京市海淀区北京大学理科一号楼</span></p>
+  </div>
 </div>
-{% endif %} -->
 
 <div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} , Maintained by <a href="https://github.com/a496263365">Xutian Li</a> <br />
-  {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a> , 
-  Site last updated {{ "now" | date: '%Y-%m-%d' }}
+  <span>&copy; {{ site.time | date: '%Y' }} 北京大学软件复用研究组</span>
+  <span>Site updated {{ "now" | date: '%Y-%m-%d' }}</span>
 </div>
