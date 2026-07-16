@@ -120,10 +120,6 @@ permalink: /
       </div>
       <a class="text-link" href="{{ base_path }}/research/">了解研究方向 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
     </div>
-    <figure class="home-vision__visual">
-      <img src="{{ base_path }}/images/index.png" alt="软件复用研究体系示意图">
-      <figcaption>软件复用研究体系</figcaption>
-    </figure>
   </div>
 </section>
 

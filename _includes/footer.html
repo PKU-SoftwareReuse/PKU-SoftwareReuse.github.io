@@ -8,24 +8,17 @@
     <p>面向复杂软件系统，研究软件复用、智能化软件工程与软件知识建模。</p>
   </div>
 
-  <div class="site-footer__nav">
-    <h2>快速访问</h2>
-    <ul>
-      <li><a href="{{ base_path }}/research/">研究方向</a></li>
-      <li><a href="{{ base_path }}/people/">团队成员</a></li>
-      <li><a href="{{ base_path }}/publications/">论文发表</a></li>
-      <li><a href="{{ base_path }}/patents/">专利软著</a></li>
-    </ul>
-  </div>
-
   <div class="site-footer__contact">
     <h2>联系我们</h2>
-    <p><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:zouyz@pku.edu.cn">zouyz@pku.edu.cn</a></p>
-    <p><i class="fas fa-location-dot" aria-hidden="true"></i><span>北京市海淀区北京大学理科一号楼</span></p>
+    <div class="site-footer__contact-list">
+      <p><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:zouyz@pku.edu.cn">zouyz@pku.edu.cn</a></p>
+      <p><i class="fas fa-location-dot" aria-hidden="true"></i><span>北京市海淀区北京大学理科一号楼</span></p>
+    </div>
   </div>
 </div>
 
 <div class="page__footer-copyright">
-  <span>&copy; {{ site.time | date: '%Y' }} 北京大学软件复用研究组</span>
+  <span>Copyright &copy; {{ site.time | date: '%Y' }} 北京大学软件复用研究组</span>
+  <span>Maintained by <a href="https://github.com/a496263365" rel="noopener noreferrer">Xutian Li</a></span>
   <span>Site updated {{ "now" | date: '%Y-%m-%d' }}</span>
 </div>

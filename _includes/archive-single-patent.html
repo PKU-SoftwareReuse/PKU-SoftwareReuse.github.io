@@ -16,8 +16,12 @@
   </p>
   <p class="publication-venue">
     {% if post.venue %}
-      {{ post.venue }}{% if post.registration_number != '' %}, {{ post.registration_number }}{% endif %}
+      {{ post.venue }}{% if post.registration_number != '' %}, {{ post.number_label | default: "登记号" }}：{{ post.registration_number }}{% endif %}
     {% endif %}
+    {% if post.rights_holder %}, 权利人：{{ post.rights_holder }}{% endif %}
+    {% if post.application_date %}, 申请日：{{ post.application_date }}{% endif %}
+    {% if post.grant_date %}, 授权日：{{ post.grant_date }}{% endif %}
+    {% if post.registration_date %}, {{ post.date_label | default: "登记日期" }}：{{ post.registration_date }}{% endif %}
     {% if post.status and post.status != '' %}
       [{{ post.status }}]
     {% endif %}

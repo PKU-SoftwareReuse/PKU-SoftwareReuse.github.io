@@ -58,6 +58,70 @@
     });
   });
 
+  function initPublicationYearFilter() {
+    var filter = document.querySelector('[data-publication-year-filter]');
+    if (!filter) return;
+
+    var status = filter.querySelector('[data-publication-result-count]');
+    var options = Array.from(filter.querySelectorAll('[data-publication-year-option]'));
+    var items = Array.from(document.querySelectorAll('.publication-item[data-publication-year]'));
+    var groups = Array.from(document.querySelectorAll('[data-publication-group]'));
+    var recentYearCutoff = Number(filter.dataset.publicationYearCutoff);
+    if (!status || !options.length || !items.length || !Number.isFinite(recentYearCutoff)) return;
+
+    function applyYear(year) {
+      var visibleCount = 0;
+
+      items.forEach(function (item) {
+        var itemYear = Number(item.dataset.publicationYear);
+        var visible = year === 'all' ||
+          (year === 'before' && itemYear < recentYearCutoff) ||
+          item.dataset.publicationYear === year;
+        item.hidden = !visible;
+        if (visible) visibleCount += 1;
+      });
+
+      options.forEach(function (option) {
+        var active = option.dataset.publicationYearOption === year;
+        option.classList.toggle('is-active', active);
+        option.setAttribute('aria-pressed', String(active));
+      });
+
+      groups.forEach(function (group) {
+        var empty = group.querySelector('[data-publication-empty]');
+        if (empty) empty.hidden = Boolean(group.querySelector('.publication-item:not([hidden])'));
+      });
+
+      status.textContent = visibleCount + ' 篇论文';
+    }
+
+    var url = new URL(window.location.href);
+    var requestedYear = url.searchParams.get('year');
+    var hasRequestedYear = options.some(function (option) {
+      return option.dataset.publicationYearOption === requestedYear;
+    });
+    var selectedYear = hasRequestedYear ? requestedYear : 'all';
+
+    applyYear(selectedYear);
+    filter.hidden = false;
+
+    options.forEach(function (option) {
+      option.addEventListener('click', function () {
+        selectedYear = option.dataset.publicationYearOption;
+        applyYear(selectedYear);
+
+        if (selectedYear === 'all') {
+          url.searchParams.delete('year');
+        } else {
+          url.searchParams.set('year', selectedYear);
+        }
+        window.history.replaceState(null, '', url.toString());
+      });
+    });
+  }
+
+  initPublicationYearFilter();
+
   var scrollFrame = 0;
   var pointerX = 0;
   var pointerY = 0;
@@ -151,7 +215,6 @@
     addRevealItems('.home-member-collage__item', 7);
     addRevealItems('.home-vision__content > .section-kicker, .home-vision__content > h2, .home-vision__content > p, .home-vision__content > .text-link', 4);
     addRevealItems('.home-vision__principles article', 3);
-    addRevealItems('.home-vision__visual', 1);
     addRevealItems('.home-section .section-heading', 1);
     addRevealItems('.home-research-card', 3);
     addRevealItems('.home-project-card', 3);
@@ -189,8 +252,6 @@
     if (finePointer) {
       attachTilt('.home-research-card', 5, 6);
       attachTilt('.home-leader', 4, 5);
-      attachTilt('.home-vision__visual', 5, 6);
-
       document.querySelectorAll('.home-project-card__media').forEach(function (media) {
         var visual = media.querySelector('img, .home-project-card__placeholder');
         if (!visual) return;

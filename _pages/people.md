@@ -52,7 +52,7 @@ permalink: /people/
         {% assign should_add = true %}
       {% endif %}
     {% elsif group_name == "已毕业学生" %}
-      {% if data.identity_type == "博士" or data.identity_type == "硕士" %}
+      {% if data.identity_type == "博士" or data.identity_type == "硕士" or data.identity_type == "已毕业" %}
         {% assign should_add = true %}
       {% endif %}
     {% endif %}
