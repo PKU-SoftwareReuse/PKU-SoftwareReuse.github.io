@@ -72,8 +72,30 @@ permalink: /
         {% assign team_photo = site.static_files | where: "path", "/images/home/team-group.webp" | first %}
         {% unless team_photo %}{% assign team_photo = site.static_files | where: "path", "/images/home/team-group.jpg" | first %}{% endunless %}
         {% unless team_photo %}{% assign team_photo = site.static_files | where: "path", "/images/home/team-group.png" | first %}{% endunless %}
-        {% if team_photo %}
-          <img class="home-team__photo" src="{{ base_path }}{{ team_photo.path }}" alt="软件复用研究组团队合影">
+        {% assign team_gallery = site.static_files | where_exp: "item", "item.path contains '/images/home/team-gallery/'" | sort: "path" %}
+        {% if team_gallery.size > 0 or team_photo %}
+          <div class="home-team__photo-stack" data-photo-stack data-interval="5200" aria-label="团队活动照片">
+            <div class="home-team__photo-stack__slides">
+              {% if team_gallery.size > 0 %}
+                {% for photo in team_gallery %}
+                  <figure class="home-team__photo-slide{% if forloop.first %} is-active{% elsif forloop.index == 2 %} is-next{% endif %}" data-photo-slide data-photo-slide-index="{{ forloop.index0 }}" aria-hidden="{% unless forloop.first %}true{% else %}false{% endunless %}">
+                    <img src="{{ base_path }}{{ photo.path }}" alt="软件复用研究组团队活动照片 {{ forloop.index }}">
+                  </figure>
+                {% endfor %}
+              {% else %}
+                <figure class="home-team__photo-slide is-active" data-photo-slide data-photo-slide-index="0" aria-hidden="false">
+                  <img src="{{ base_path }}{{ team_photo.path }}" alt="软件复用研究组团队合影">
+                </figure>
+              {% endif %}
+            </div>
+            {% if team_gallery.size > 1 %}
+              <div class="home-team__photo-stack__controls" role="tablist" aria-label="团队活动照片切换">
+                {% for photo in team_gallery %}
+                  <button type="button" data-photo-slide-button="{{ forloop.index0 }}" role="tab" aria-label="查看第 {{ forloop.index }} 张团队照片" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"></button>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
         {% else %}
           <div class="home-member-collage" aria-label="课题组成员照片">
             {% assign displayed_members = 0 %}

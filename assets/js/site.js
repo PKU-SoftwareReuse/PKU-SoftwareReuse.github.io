@@ -122,6 +122,69 @@
 
   initPublicationYearFilter();
 
+  function initPhotoStacks() {
+    document.querySelectorAll('[data-photo-stack]').forEach(function (stack) {
+      var slides = Array.from(stack.querySelectorAll('[data-photo-slide]'));
+      var controls = Array.from(stack.querySelectorAll('[data-photo-slide-button]'));
+      if (slides.length < 2) return;
+
+      var activeIndex = 0;
+      var interval = Number(stack.dataset.interval) || 5200;
+      var timer = null;
+
+      function showSlide(index) {
+        activeIndex = (index + slides.length) % slides.length;
+
+        slides.forEach(function (slide, slideIndex) {
+          var isActive = slideIndex === activeIndex;
+          var isNext = slideIndex === (activeIndex + 1) % slides.length;
+          var isPrevious = slideIndex === (activeIndex - 1 + slides.length) % slides.length;
+          slide.classList.toggle('is-active', isActive);
+          slide.classList.toggle('is-next', isNext);
+          slide.classList.toggle('is-previous', isPrevious);
+          slide.setAttribute('aria-hidden', String(!isActive));
+        });
+
+        controls.forEach(function (control, controlIndex) {
+          control.setAttribute('aria-selected', String(controlIndex === activeIndex));
+        });
+      }
+
+      function stop() {
+        if (!timer) return;
+        window.clearInterval(timer);
+        timer = null;
+      }
+
+      function start() {
+        if (reduceMotion) return;
+        stop();
+        timer = window.setInterval(function () {
+          showSlide(activeIndex + 1);
+        }, interval);
+      }
+
+      controls.forEach(function (control) {
+        control.addEventListener('click', function () {
+          showSlide(Number(control.dataset.photoSlideButton));
+          start();
+        });
+      });
+
+      stack.addEventListener('mouseenter', stop);
+      stack.addEventListener('mouseleave', start);
+      stack.addEventListener('focusin', stop);
+      stack.addEventListener('focusout', function () {
+        if (!stack.contains(document.activeElement)) start();
+      });
+
+      showSlide(0);
+      start();
+    });
+  }
+
+  initPhotoStacks();
+
   var scrollFrame = 0;
   var pointerX = 0;
   var pointerY = 0;
