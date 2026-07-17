@@ -6,19 +6,21 @@
 
 main:
   - title: "研究方向"
+    title_en: "Research"
     url: /research/
 
   - title: "团队成员"
+    title_en: "People"
     url: /people/
 
   - title: "论文发表"
+    title_en: "Publications"
     url: /publications/
 
   - title: "专利软著"
+    title_en: "Patents & Software"
     url: /patents/
 
   - title: "最新动态"
+    title_en: "News"
     url: /news/
-
-  - title: "English"
-    url: /en/

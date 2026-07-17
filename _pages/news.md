@@ -1,13 +1,14 @@
 ---
 layout: archive
 title: "最新动态"
+title_en: "News"
 author_profile: false
 permalink: /news/
 ---
 
 {% include base_path %}
 
-<p>本页面汇总课题组近期新闻与更新。</p>
+<p data-i18n-key="page.news.description">本页面汇总课题组近期新闻与更新。</p>
 
 {% assign posts = site.posts | sort: "date" | reverse %}
 {% for post in posts %}
@@ -27,5 +28,5 @@ permalink: /news/
 {% endfor %}
 
 {% if posts.size == 0 %}
-<p>暂无最新动态。</p>
+<p data-i18n-key="page.news.empty">暂无最新动态。</p>
 {% endif %}

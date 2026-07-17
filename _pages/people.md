@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "课题组成员"
+title_en: "People"
 author_profile: false
 permalink: /people/
 ---
@@ -77,8 +78,17 @@ permalink: /people/
     {% endfor %}
     {% assign sorted_tuples = tuples | sort %}
 
+  {% assign group_name_en = group_name %}
+  {% case group_name %}
+    {% when "负责人" %}{% assign group_name_en = "Group leaders" %}
+    {% when "博士研究生" %}{% assign group_name_en = "PhD students" %}
+    {% when "硕士研究生" %}{% assign group_name_en = "Master's students" %}
+    {% when "本科生" %}{% assign group_name_en = "Undergraduate students" %}
+    {% when "已毕业学生" %}{% assign group_name_en = "Alumni" %}
+  {% endcase %}
+
   <div class="people-section{% if group_name == '负责人' %} people-section--leaders{% endif %}">
-      <h2>{{ group_name }}</h2>
+      <h2 data-i18n-zh="{{ group_name | escape }}" data-i18n-en="{{ group_name_en | escape }}">{{ group_name }}</h2>
       <ul class="people-grid{% if group_name == '负责人' %} people-grid--leaders{% endif %}">
         {% for tuple in sorted_tuples %}
           {% assign parts = tuple | split: "|" %}
@@ -105,10 +115,10 @@ permalink: /people/
               <div class="person-avatar-placeholder">{{ first_char }}</div>
             {% endif %}
 
-            <div class="person-name">{{ data.name }}</div>
+            <div class="person-name" data-i18n-zh="{{ data.name | escape }}" data-i18n-en="{{ data.name_en | default: data.name | escape }}">{{ data.name }}</div>
 
             {%- comment -%} 显示 identity_type-identity_type_note，如无 identity_type_note 则不显示- {%- endcomment -%}
-            <span class="person-identity">
+            <span class="person-identity" data-identity-type="{{ data.identity_type | escape }}" data-identity-note="{{ data.identity_type_note | default: '' | escape }}">
               {% if data.identity_type_note and data.identity_type_note != "" %}
                 {{ data.identity_type }}-{{ data.identity_type_note }}
               {% else %}
@@ -129,9 +139,9 @@ permalink: /people/
 
 
 <section id="join-us" class="join-panel">
-  <h2>招生与合作</h2>
-  <p>课题组长期欢迎具有软件工程、人工智能或相关背景的同学加入，支持本科科研训练、硕士与博士培养，也欢迎学术与产业合作交流。</p>
-  <p>欢迎对课题组研究方向感兴趣的同学与同行联系。</p>
+  <h2 data-i18n-key="page.join.title">招生与合作</h2>
+  <p data-i18n-key="page.join.description">课题组长期欢迎具有软件工程、人工智能或相关背景的同学加入，支持本科科研训练、硕士与博士培养，也欢迎学术与产业合作交流。</p>
+  <p data-i18n-key="page.join.contact">欢迎对课题组研究方向感兴趣的同学与同行联系。</p>
   <div class="join-panel__contact">
     <span><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:zouyz@pku.edu.cn">zouyz@pku.edu.cn</a></span>
     <span><i class="fas fa-location-dot" aria-hidden="true"></i>北京大学理科一号楼</span>

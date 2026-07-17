@@ -1,5 +1,6 @@
 Xie Bing:
   name: 谢冰
+  name_en: Bing Xie
   key: Xie Bing
   identity_type: 教授
   identity_type_note: 杰青
@@ -30,6 +31,7 @@ Xie Bing:
   order: 1
 Zou Yanzhen:
   name: 邹艳珍
+  name_en: Yanzhen Zou
   key: Zou Yanzhen
   identity_type: 研究员
   identity_type_note: ''
@@ -47,6 +49,7 @@ Zou Yanzhen:
   order: 2
 Ma Zexiong:
   name: 马泽雄
+  name_en: Zexiong Ma
   key: Ma Zexiong
   identity_type: 博士
   identity_type_note: ''
@@ -65,6 +68,7 @@ Ma Zexiong:
   external_url: https://mizersy.github.io/
 Li Yuxuan:
   name: 李宇轩
+  name_en: Yuxuan Li
   key: Li Yuxuan
   identity_type: 博士生
   identity_type_note: 直博
@@ -79,6 +83,7 @@ Li Yuxuan:
   order: 101
 Yuan Haizhuo:
   name: 袁海卓
+  name_en: Haizhuo Yuan
   key: Yuan Haizhuo
   identity_type: 博士生
   identity_type_note: 直博
@@ -93,6 +98,7 @@ Yuan Haizhuo:
   order: 102
 Wang Junfeng:
   name: 王俊枫
+  name_en: Junfeng Wang
   key: Wang Junfeng
   identity_type: 博士生
   identity_type_note: 直博
@@ -107,6 +113,7 @@ Wang Junfeng:
   order: 103
 Deng Tongwei:
   name: 邓同蔚
+  name_en: Tongwei Deng
   key: Deng Tongwei
   identity_type: 博士生
   identity_type_note: 直博
@@ -121,6 +128,7 @@ Deng Tongwei:
   order: 104
 Yan Siqiao:
   name: 闫思桥
+  name_en: Siqiao Yan
   key: Yan Siqiao
   identity_type: 博士生
   identity_type_note: 直博
@@ -138,6 +146,7 @@ Yan Siqiao:
   order: 105
 Yan Runbang:
   name: 闫润邦
+  name_en: Runbang Yan
   key: Yan Runbang
   identity_type: 博士生
   identity_type_note: 直博
@@ -155,6 +164,7 @@ Yan Runbang:
   order: 106
 Li Xutian:
   name: 李旭田
+  name_en: Xutian Li
   key: Li Xutian
   identity_type: 博士生
   identity_type_note: 直博
@@ -174,6 +184,7 @@ Li Xutian:
   order: 107
 Zhu Yifeng:
   name: 朱奕凤
+  name_en: Yifeng Zhu
   key: Zhu Yifeng
   identity_type: 博士生
   identity_type_note: 直博
@@ -191,6 +202,7 @@ Zhu Yifeng:
   order: 108
 Zhu Jinyu:
   name: 朱锦瑜
+  name_en: Jinyu Zhu
   key: Zhu Jinyu
   identity_type: 本科生
   identity_type_note: 直博
@@ -208,6 +220,7 @@ Zhu Jinyu:
   order: 301
 Xiong Bo:
   name: 熊博
+  name_en: Bo Xiong
   key: Xiong Bo
   identity_type: 本科生
   identity_type_note: 直博
@@ -226,6 +239,7 @@ Xiong Bo:
   external_url: ''
 Zhao Xianlin:
   name: 赵衔麟
+  name_en: Xianlin Zhao
   key: Zhao Xianlin
   identity_type: 硕士
   identity_type_note: ''
@@ -243,6 +257,7 @@ Zhao Xianlin:
   order: 402
 Qiu Xiaofei:
   name: 邱小非
+  name_en: Xiaofei Qiu
   key: Qiu Xiaofei
   identity_type: 硕士生
   identity_type_note: ''
@@ -257,6 +272,7 @@ Qiu Xiaofei:
   order: 201
 Li Kunze:
   name: 李坤泽
+  name_en: Kunze Li
   key: Li Kunze
   identity_type: 硕士生
   identity_type_note: ''
@@ -271,6 +287,7 @@ Li Kunze:
   order: 202
 Song Chunfeng:
   name: 宋春风
+  name_en: Chunfeng Song
   key: Song Chunfeng
   identity_type: 硕士生
   identity_type_note: 强军硕士
@@ -285,6 +302,7 @@ Song Chunfeng:
   order: 203
 Sun Jiaxuan:
   name: 孙嘉旋
+  name_en: Jiaxuan Sun
   key: Sun Jiaxuan
   identity_type: 硕士生
   identity_type_note: ''
@@ -299,6 +317,7 @@ Sun Jiaxuan:
   order: 204
 Yang Hongyi:
   name: 杨泓奕
+  name_en: Hongyi Yang
   key: Yang Hongyi
   identity_type: 本科生
   identity_type_note: ''
@@ -316,6 +335,7 @@ Yang Hongyi:
   order: 303
 Su Zhengwei:
   name: 苏政玮
+  name_en: Zhengwei Su
   key: Su Zhengwei
   identity_type: 本科生
   identity_type_note: ''
@@ -333,6 +353,7 @@ Su Zhengwei:
   order: 304
 Shi Yujie:
   name: 史宇颉
+  name_en: Yujie Shi
   key: Shi Yujie
   identity_type: 本科生
   identity_type_note: 北京大学
@@ -350,6 +371,7 @@ Shi Yujie:
   order: 305
 Li Wanning:
   name: 李婉宁
+  name_en: Wanning Li
   key: Li Wanning
   identity_type: 本科生
   identity_type_note: 北京大学
@@ -367,6 +389,7 @@ Li Wanning:
   order: 306
 Wang Yue:
   name: 王玥
+  name_en: Yue Wang
   key: Wang Yue
   identity_type: 博士
   identity_type_note: ''
@@ -384,6 +407,7 @@ Wang Yue:
   order: 403
 Chang Wenhui:
   name: 常文辉
+  name_en: Wenhui Chang
   key: Chang Wenhui
   identity_type: 硕士
   identity_type_note: ''
@@ -401,6 +425,7 @@ Chang Wenhui:
   order: 404
 Pan Xinglu:
   name: 潘兴禄
+  name_en: Xinglu Pan
   key: Pan Xinglu
   identity_type: 博士
   identity_type_note: ''
@@ -418,6 +443,7 @@ Pan Xinglu:
   order: 405
 Chenxiao Liu:
   name: 刘陈晓
+  name_en: Chenxiao Liu
   key: Chenxiao Liu
   identity_type: 硕士
   identity_type_note: ''
@@ -435,6 +461,7 @@ Chenxiao Liu:
   order: 406
 Chunyang Ling:
   name: 凌春阳
+  name_en: Chunyang Ling
   key: Chunyang Ling
   identity_type: 硕士
   identity_type_note: ''
@@ -452,6 +479,7 @@ Chunyang Ling:
   order: 411
 Ying Qian:
   name: 钱莹
+  name_en: Ying Qian
   key: Ying Qian
   identity_type: 硕士
   identity_type_note: ''
@@ -469,6 +497,7 @@ Ying Qian:
   order: 412
 Chenyan Hua:
   name: 华晨彦
+  name_en: Chenyan Hua
   key: Chenyan Hua
   identity_type: 硕士
   identity_type_note: ''
@@ -486,6 +515,7 @@ Chenyan Hua:
   order: 413
 Jinan Ni:
   name: 倪际楠
+  name_en: Jinan Ni
   key: Jinan Ni
   identity_type: 硕士
   identity_type_note: ''
@@ -503,6 +533,7 @@ Jinan Ni:
   order: 414
 Yuxiang Luo:
   name: 罗宇翔
+  name_en: Yuxiang Luo
   key: Yuxiang Luo
   identity_type: 硕士
   identity_type_note: ''
@@ -520,6 +551,7 @@ Yuxiang Luo:
   order: 416
 Risheng Wei:
   name: 魏日升
+  name_en: Risheng Wei
   key: Risheng Wei
   identity_type: 硕士
   identity_type_note: ''
@@ -537,6 +569,7 @@ Risheng Wei:
   order: 407
 Shijun Wu:
   name: 伍仕骏
+  name_en: Shijun Wu
   key: Shijun Wu
   identity_type: 硕士
   identity_type_note: ''
@@ -554,6 +587,7 @@ Shijun Wu:
   order: 408
 Min Wang:
   name: 王敏
+  name_en: Min Wang
   key: Min Wang
   identity_type: 博士
   identity_type_note: ''
@@ -571,6 +605,7 @@ Min Wang:
   order: 409
 Yingkui Cao:
   name: 曹英魁
+  name_en: Yingkui Cao
   key: Yingkui Cao
   identity_type: 博士
   identity_type_note: ''
@@ -588,6 +623,7 @@ Yingkui Cao:
   order: 410
 Zixiao Zhu:
   name: 朱子骁
+  name_en: Zixiao Zhu
   key: Zixiao Zhu
   identity_type: 博士
   identity_type_note: ''
@@ -605,6 +641,7 @@ Zixiao Zhu:
   order: 415
 Meng Li:
   name: 李萌
+  name_en: Meng Li
   key: Meng Li
   identity_type: 博士
   identity_type_note: ''
@@ -622,6 +659,7 @@ Meng Li:
   order: 417
 Chen Xuanyan:
   name: 陈宣言
+  name_en: Xuanyan Chen
   key: Chen Xuanyan
   identity_type: 本科生
   identity_type_note: 直博
@@ -639,6 +677,7 @@ Chen Xuanyan:
   order: 307
 Wang Jingbo:
   name: 王靖博
+  name_en: Jingbo Wang
   key: Wang Jingbo
   identity_type: 本科生
   identity_type_note: ''
@@ -656,6 +695,7 @@ Wang Jingbo:
   order: 308
 Hua Zhebang:
   name: 华哲邦
+  name_en: Zhebang Hua
   key: Hua Zhebang
   identity_type: 已毕业
   identity_type_note: ''
@@ -673,6 +713,7 @@ Hua Zhebang:
   order: 418
 Jin Yong:
   name: 金庸
+  name_en: Yong Jin
   key: Jin Yong
   identity_type: 已毕业
   identity_type_note: ''
@@ -690,6 +731,7 @@ Jin Yong:
   order: 419
 Li Wenpeng:
   name: 李文鹏
+  name_en: Wenpeng Li
   key: Li Wenpeng
   identity_type: 已毕业
   identity_type_note: ''
@@ -707,6 +749,7 @@ Li Wenpeng:
   order: 420
 Lin Zeqi:
   name: 林泽琦
+  name_en: Zeqi Lin
   key: Lin Zeqi
   identity_type: 已毕业
   identity_type_note: ''
@@ -724,6 +767,7 @@ Lin Zeqi:
   order: 421
 Liu Shaoqin:
   name: 刘少钦
+  name_en: Shaoqin Liu
   key: Liu Shaoqin
   identity_type: 已毕业
   identity_type_note: ''
@@ -741,6 +785,7 @@ Liu Shaoqin:
   order: 422
 Shao Lingshuang:
   name: 邵凌霜
+  name_en: Lingshuang Shao
   key: Shao Lingshuang
   identity_type: 已毕业
   identity_type_note: ''
@@ -758,6 +803,7 @@ Shao Lingshuang:
   order: 423
 Shen Qi:
   name: 沈琦
+  name_en: Qi Shen
   key: Shen Qi
   identity_type: 已毕业
   identity_type_note: ''
@@ -775,6 +821,7 @@ Shen Qi:
   order: 424
 Wang Jianbin:
   name: 王建彬
+  name_en: Jianbin Wang
   key: Wang Jianbin
   identity_type: 已毕业
   identity_type_note: ''
@@ -792,6 +839,7 @@ Wang Jianbin:
   order: 425
 Wang Lijie:
   name: 王立杰
+  name_en: Lijie Wang
   key: Wang Lijie
   identity_type: 已毕业
   identity_type_note: ''
@@ -809,6 +857,7 @@ Wang Lijie:
   order: 426
 Yang Kai:
   name: 杨恺
+  name_en: Kai Yang
   key: Yang Kai
   identity_type: 已毕业
   identity_type_note: ''
@@ -826,6 +875,7 @@ Yang Kai:
   order: 427
 Zhang Bowei:
   name: 张博玮
+  name_en: Bowei Zhang
   key: Zhang Bowei
   identity_type: 已毕业
   identity_type_note: ''
@@ -843,6 +893,7 @@ Zhang Bowei:
   order: 428
 Zhang Lingxiao:
   name: 张灵箫
+  name_en: Lingxiao Zhang
   key: Zhang Lingxiao
   identity_type: 已毕业
   identity_type_note: ''
@@ -860,6 +911,7 @@ Zhang Lingxiao:
   order: 429
 Tang Shuang:
   name: 唐爽
+  name_en: Shuang Tang
   key: Tang Shuang
   identity_type: 已毕业
   identity_type_note: ''

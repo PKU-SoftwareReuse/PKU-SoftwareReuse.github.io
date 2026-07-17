@@ -1,7 +1,7 @@
 {% include base_path %}
 
 <div class="publication-item"{% if post.year %} data-publication-year="{{ post.year }}"{% endif %}>
-  <p class="publication-authors">
+  <p class="publication-authors" data-name-list>
     {% if post.authors %}
       {{ post.authors | join: ", " }}
     {% elsif post.author %}

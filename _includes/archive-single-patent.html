@@ -1,8 +1,10 @@
 {% include base_path %}
 
 <div class="publication-item">
-  <p class="publication-authors">
-    {% if post.authors %}
+  <p class="publication-authors" data-name-list>
+    {% if post.inventors %}
+      {{ post.inventors | join: ", " }}
+    {% elsif post.authors %}
       {{ post.authors | join: ", " }}
     {% elsif post.author %}
       {{ post.author }}
