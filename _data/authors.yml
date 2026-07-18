@@ -3,9 +3,9 @@ Bing Xie:
   name_en: Bing Xie
   key: Bing Xie
   identity_type: 教授
-  identity_type_en: "Professor"
+  identity_type_en: Professor
   identity_type_note: 杰青
-  identity_type_note_en: "NSFC Distinguished Young Scholar"
+  identity_type_note_en: NSFC Distinguished Young Scholar
   grade: ''
   avatar_big: xie-bing.jpeg
   avatar_small: xie-bing.jpeg
@@ -26,19 +26,20 @@ Bing Xie:
   employer: 北京大学信息科学技术学院
   email: xiebing@pku.edu.cn
   github: ''
-  orcid: ''
+  orcid: 0000-0002-2988-2575
   googlescholar: ''
   research: "软件工程\r\n计算机科学理论\r\n分布式系统"
   project: ''
   order: 1
+  external_url: ''
 Yanzhen Zou:
   name: 邹艳珍
   name_en: Yanzhen Zou
   key: Yanzhen Zou
   identity_type: 研究员
-  identity_type_en: "Researcher"
+  identity_type_en: Researcher
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: Zou-Yanzhen.jpg
   avatar_small: Zou-Yanzhen.jpg
@@ -46,19 +47,20 @@ Yanzhen Zou:
   employer: 北京大学计算机学院
   email: zouyz@pku.edu.cn
   github: ''
-  orcid: ''
+  orcid: 0009-0009-1764-6645
   googlescholar: ''
   research: 软件工程
   project: ''
   order: 2
+  external_url: ''
 Zexiong Ma:
   name: 马泽雄
   name_en: Zexiong Ma
   key: Zexiong Ma
   identity_type: 博士
-  identity_type_en: "PhD"
+  identity_type_en: PhD
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2026届
   avatar_big: profile.png
   avatar_small: ma-zexiong-avatar-list.webp
@@ -77,9 +79,9 @@ Yuxuan Li:
   name_en: Yuxuan Li
   key: Yuxuan Li
   identity_type: 博士生
-  identity_type_en: "PhD Student"
+  identity_type_en: PhD Student
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 2021级
   employer: 北京大学
   email: ''
@@ -94,9 +96,9 @@ Haizhuo Yuan:
   name_en: Haizhuo Yuan
   key: Haizhuo Yuan
   identity_type: 博士生
-  identity_type_en: "PhD Student"
+  identity_type_en: PhD Student
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 2022级
   employer: 北京大学
   email: ''
@@ -111,9 +113,9 @@ Junfeng Wang:
   name_en: Junfeng Wang
   key: Junfeng Wang
   identity_type: 博士生
-  identity_type_en: "PhD Student"
+  identity_type_en: PhD Student
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 2023级
   employer: 北京大学
   email: ''
@@ -128,9 +130,9 @@ Tongwei Deng:
   name_en: Tongwei Deng
   key: Tongwei Deng
   identity_type: 博士生
-  identity_type_en: "PhD Student"
+  identity_type_en: PhD Student
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 2024级
   employer: 北京大学
   email: ''
@@ -145,9 +147,9 @@ Siqiao Yan:
   name_en: Siqiao Yan
   key: Siqiao Yan
   identity_type: 博士生
-  identity_type_en: "PhD Student"
+  identity_type_en: PhD Student
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 2024级
   avatar_big: profile.png
   avatar_small: profile.png
@@ -165,9 +167,9 @@ Runbang Yan:
   name_en: Runbang Yan
   key: Runbang Yan
   identity_type: 博士生
-  identity_type_en: "PhD Student"
+  identity_type_en: PhD Student
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 2025级
   avatar_big: yan-runbang.jpeg
   avatar_small: yan-runbang.jpeg
@@ -185,9 +187,9 @@ Xutian Li:
   name_en: Xutian Li
   key: Xutian Li
   identity_type: 博士生
-  identity_type_en: "PhD Student"
+  identity_type_en: PhD Student
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 2025级
   avatar_big: li-xutian.jpg
   avatar_small: li-xutian.jpg
@@ -207,9 +209,9 @@ Yifeng Zhu:
   name_en: Yifeng Zhu
   key: Yifeng Zhu
   identity_type: 博士生
-  identity_type_en: "PhD Student"
+  identity_type_en: PhD Student
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 2025级
   avatar_big: mini_zyf.png
   avatar_small: yifengzhu.jpg
@@ -217,19 +219,20 @@ Yifeng Zhu:
   employer: 北京大学
   email: ''
   github: ''
-  orcid: ''
+  orcid: 0009-0009-0487-8404
   googlescholar: ''
   research: "人工智能\r\n软件工程"
   project: 低代码
   order: 108
+  external_url: ''
 Jinyu Zhu:
   name: 朱锦瑜
   name_en: Jinyu Zhu
   key: Jinyu Zhu
   identity_type: 本科生
-  identity_type_en: "Undergraduate"
+  identity_type_en: Undergraduate
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 2026级
   avatar_big: profile.png
   avatar_small: profile.png
@@ -247,9 +250,9 @@ Bo Xiong:
   name_en: Bo Xiong
   key: Bo Xiong
   identity_type: 本科生
-  identity_type_en: "Undergraduate"
+  identity_type_en: Undergraduate
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 2026级
   avatar_big: profile.png
   avatar_small: profile.png
@@ -268,9 +271,9 @@ Xianlin Zhao:
   name_en: Xianlin Zhao
   key: Xianlin Zhao
   identity_type: 硕士
-  identity_type_en: "Master’s Degree"
+  identity_type_en: Master’s Degree
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2026届
   avatar_big: zxl_fse_issta.jpg
   avatar_small: zxl_mimic.jpg
@@ -278,19 +281,20 @@ Xianlin Zhao:
   employer: 北京大学
   email: ''
   github: ''
-  orcid: ''
+  orcid: 0009-0007-1471-7685
   googlescholar: ''
   research: 软件工程
   project: 低代码
   order: 402
+  external_url: ''
 Xiaofei Qiu:
   name: 邱小非
   name_en: Xiaofei Qiu
   key: Xiaofei Qiu
   identity_type: 硕士生
-  identity_type_en: "Master’s Student"
+  identity_type_en: Master’s Student
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2024级
   employer: 北京大学
   email: ''
@@ -305,9 +309,9 @@ Kunze Li:
   name_en: Kunze Li
   key: Kunze Li
   identity_type: 硕士生
-  identity_type_en: "Master’s Student"
+  identity_type_en: Master’s Student
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2024级
   employer: 北京大学
   email: ''
@@ -322,9 +326,9 @@ Chunfeng Song:
   name_en: Chunfeng Song
   key: Chunfeng Song
   identity_type: 硕士生
-  identity_type_en: "Master’s Student"
+  identity_type_en: Master’s Student
   identity_type_note: 强军硕士
-  identity_type_note_en: "强军硕士"
+  identity_type_note_en: 强军硕士
   grade: 2024级
   employer: 北京大学
   email: ''
@@ -339,9 +343,9 @@ Jiaxuan Sun:
   name_en: Jiaxuan Sun
   key: Jiaxuan Sun
   identity_type: 硕士生
-  identity_type_en: "Master’s Student"
+  identity_type_en: Master’s Student
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2025级
   employer: 北京大学
   email: ''
@@ -356,9 +360,9 @@ Hongyi Yang:
   name_en: Hongyi Yang
   key: Hongyi Yang
   identity_type: 本科生
-  identity_type_en: "Undergraduate"
+  identity_type_en: Undergraduate
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2026级
   avatar_big: profile.png
   avatar_small: profile.png
@@ -376,9 +380,9 @@ Zhengwei Su:
   name_en: Zhengwei Su
   key: Zhengwei Su
   identity_type: 本科生
-  identity_type_en: "Undergraduate"
+  identity_type_en: Undergraduate
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2026级
   avatar_big: profile.png
   avatar_small: profile.png
@@ -396,9 +400,9 @@ Yujie Shi:
   name_en: Yujie Shi
   key: Yujie Shi
   identity_type: 本科生
-  identity_type_en: "Undergraduate"
+  identity_type_en: Undergraduate
   identity_type_note: 北京大学
-  identity_type_note_en: "Peking University"
+  identity_type_note_en: Peking University
   grade: 大三
   avatar_big: profile.png
   avatar_small: profile.png
@@ -416,9 +420,9 @@ Wanning Li:
   name_en: Wanning Li
   key: Wanning Li
   identity_type: 本科生
-  identity_type_en: "Undergraduate"
+  identity_type_en: Undergraduate
   identity_type_note: 北京大学
-  identity_type_note_en: "Peking University"
+  identity_type_note_en: Peking University
   grade: 大三
   avatar_big: profile.png
   avatar_small: profile.png
@@ -436,9 +440,9 @@ Yue Wang:
   name_en: Yue Wang
   key: Yue Wang
   identity_type: 博士
-  identity_type_en: "PhD"
+  identity_type_en: PhD
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2025届
   avatar_big: profile.png
   avatar_small: profile.png
@@ -456,9 +460,9 @@ Wenhui Chang:
   name_en: Wenhui Chang
   key: Wenhui Chang
   identity_type: 硕士
-  identity_type_en: "Master’s Degree"
+  identity_type_en: Master’s Degree
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2025届
   avatar_big: profile.png
   avatar_small: profile.png
@@ -476,9 +480,9 @@ Xinglu Pan:
   name_en: Xinglu Pan
   key: Xinglu Pan
   identity_type: 博士
-  identity_type_en: "PhD"
+  identity_type_en: PhD
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2024届
   avatar_big: profile.png
   avatar_small: profile.png
@@ -496,9 +500,9 @@ Chenxiao Liu:
   name_en: Chenxiao Liu
   key: Chenxiao Liu
   identity_type: 硕士
-  identity_type_en: "Master’s Degree"
+  identity_type_en: Master’s Degree
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2024届
   avatar_big: ''
   avatar_small: ''
@@ -516,9 +520,9 @@ Chunyang Ling:
   name_en: Chunyang Ling
   key: Chunyang Ling
   identity_type: 硕士
-  identity_type_en: "Master’s Degree"
+  identity_type_en: Master’s Degree
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2021届
   avatar_big: ''
   avatar_small: ''
@@ -536,9 +540,9 @@ Ying Qian:
   name_en: Ying Qian
   key: Ying Qian
   identity_type: 硕士
-  identity_type_en: "Master’s Degree"
+  identity_type_en: Master’s Degree
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2020届
   avatar_big: ''
   avatar_small: ''
@@ -556,9 +560,9 @@ Chenyan Hua:
   name_en: Chenyan Hua
   key: Chenyan Hua
   identity_type: 硕士
-  identity_type_en: "Master’s Degree"
+  identity_type_en: Master’s Degree
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2019届
   avatar_big: ''
   avatar_small: ''
@@ -576,9 +580,9 @@ Jinan Ni:
   name_en: Jinan Ni
   key: Jinan Ni
   identity_type: 硕士
-  identity_type_en: "Master’s Degree"
+  identity_type_en: Master’s Degree
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2018届
   avatar_big: ''
   avatar_small: ''
@@ -596,9 +600,9 @@ Yuxiang Luo:
   name_en: Yuxiang Luo
   key: Yuxiang Luo
   identity_type: 硕士
-  identity_type_en: "Master’s Degree"
+  identity_type_en: Master’s Degree
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2017届
   avatar_big: ''
   avatar_small: ''
@@ -616,9 +620,9 @@ Risheng Wei:
   name_en: Risheng Wei
   key: Risheng Wei
   identity_type: 硕士
-  identity_type_en: "Master’s Degree"
+  identity_type_en: Master’s Degree
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2023届
   avatar_big: ''
   avatar_small: ''
@@ -636,9 +640,9 @@ Shijun Wu:
   name_en: Shijun Wu
   key: Shijun Wu
   identity_type: 硕士
-  identity_type_en: "Master’s Degree"
+  identity_type_en: Master’s Degree
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2023届
   avatar_big: ''
   avatar_small: ''
@@ -656,9 +660,9 @@ Min Wang:
   name_en: Min Wang
   key: Min Wang
   identity_type: 博士
-  identity_type_en: "PhD"
+  identity_type_en: PhD
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2022届
   avatar_big: ''
   avatar_small: ''
@@ -676,9 +680,9 @@ Yingkui Cao:
   name_en: Yingkui Cao
   key: Yingkui Cao
   identity_type: 博士
-  identity_type_en: "PhD"
+  identity_type_en: PhD
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2021届
   avatar_big: ''
   avatar_small: ''
@@ -696,9 +700,9 @@ Zixiao Zhu:
   name_en: Zixiao Zhu
   key: Zixiao Zhu
   identity_type: 博士
-  identity_type_en: "PhD"
+  identity_type_en: PhD
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2018届
   avatar_big: ''
   avatar_small: ''
@@ -716,9 +720,9 @@ Meng Li:
   name_en: Meng Li
   key: Meng Li
   identity_type: 博士
-  identity_type_en: "PhD"
+  identity_type_en: PhD
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 2014届
   avatar_big: ''
   avatar_small: ''
@@ -736,9 +740,9 @@ Xuanyan Chen:
   name_en: Xuanyan Chen
   key: Xuanyan Chen
   identity_type: 本科生
-  identity_type_en: "Undergraduate"
+  identity_type_en: Undergraduate
   identity_type_note: 直博
-  identity_type_note_en: "Direct-entry PhD"
+  identity_type_note_en: Direct-entry PhD
   grade: 大三
   avatar_big: ''
   avatar_small: ''
@@ -756,9 +760,9 @@ Jingbo Wang:
   name_en: Jingbo Wang
   key: Jingbo Wang
   identity_type: 本科生
-  identity_type_en: "Undergraduate"
+  identity_type_en: Undergraduate
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: 大三
   avatar_big: ''
   avatar_small: ''
@@ -776,9 +780,9 @@ Zhebang Hua:
   name_en: Zhebang Hua
   key: Zhebang Hua
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -796,9 +800,9 @@ Yong Jin:
   name_en: Yong Jin
   key: Yong Jin
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -816,9 +820,9 @@ Wenpeng Li:
   name_en: Wenpeng Li
   key: Wenpeng Li
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -836,9 +840,9 @@ Zeqi Lin:
   name_en: Zeqi Lin
   key: Zeqi Lin
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -856,9 +860,9 @@ Shaoqin Liu:
   name_en: Shaoqin Liu
   key: Shaoqin Liu
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -876,9 +880,9 @@ Lingshuang Shao:
   name_en: Lingshuang Shao
   key: Lingshuang Shao
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -896,9 +900,9 @@ Qi Shen:
   name_en: Qi Shen
   key: Qi Shen
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -916,9 +920,9 @@ Jianbin Wang:
   name_en: Jianbin Wang
   key: Jianbin Wang
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -936,9 +940,9 @@ Lijie Wang:
   name_en: Lijie Wang
   key: Lijie Wang
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -956,9 +960,9 @@ Kai Yang:
   name_en: Kai Yang
   key: Kai Yang
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -976,9 +980,9 @@ Bowei Zhang:
   name_en: Bowei Zhang
   key: Bowei Zhang
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -996,9 +1000,9 @@ Lingxiao Zhang:
   name_en: Lingxiao Zhang
   key: Lingxiao Zhang
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -1016,9 +1020,9 @@ Shuang Tang:
   name_en: Shuang Tang
   key: Shuang Tang
   identity_type: 已毕业
-  identity_type_en: "Alumni"
+  identity_type_en: Alumni
   identity_type_note: ''
-  identity_type_note_en: ""
+  identity_type_note_en: ''
   grade: ''
   avatar_big: profile.png
   avatar_small: profile.png
@@ -1031,24 +1035,3 @@ Shuang Tang:
   research: ''
   project: ''
   order: 430
-Ce Shi:
-  name: 测试
-  name_en: Ce Shi
-  key: Ce Shi
-  identity_type: 教授
-  identity_type_en: "Professor"
-  identity_type_note: ''
-  identity_type_note_en: ""
-  grade: ''
-  avatar_big: ''
-  avatar_small: ''
-  external_url: ''
-  bio: ''
-  employer: ''
-  email: ''
-  github: ''
-  orcid: ''
-  googlescholar: ''
-  research: ''
-  project: ''
-  order: 999
