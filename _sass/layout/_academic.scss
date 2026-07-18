@@ -502,6 +502,10 @@ body.nav-open {
   font-weight: 650;
 }
 
+html[lang="en"] .home-hero__english {
+  display: none;
+}
+
 .home-hero__lead {
   max-width: 40rem;
   margin: 1.25rem 0 0;

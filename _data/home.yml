@@ -1,33 +1,38 @@
 projects:
-  - key: featx
-    label: "智能代码编辑"
-    label_en: "Intelligent code editing"
-    title: "FeatX"
-    title_en: "FeatX"
-    description: "从功能特征视角理解仓库级代码，面向复杂代码库提供智能编辑与演进支持。"
-    description_en: "Understand repository-level code through functional features and support intelligent editing and evolution for complex codebases."
-    icon: "fa-code-branch"
-    image: "/images/home/featx.webp"
-    url: "/patents/"
-
-  - key: flowgen
-    label: "低代码智能化"
-    label_en: "Low-code intelligence"
-    title: "FlowGen"
-    title_en: "FlowGen"
-    description: "面向低代码场景的工作流智能生成系统，连接软件知识、业务意图与工程流程。"
-    description_en: "An intelligent workflow generation system for low-code scenarios, connecting software knowledge, business intent, and engineering processes."
-    icon: "fa-wand-magic-sparkles"
-    image: "/images/home/flowgen.webp"
-    url: "/patents/"
-
-  - key: knowledge-graph
-    label: "知识增强软件工程"
-    label_en: "Knowledge-enhanced engineering"
-    title: "软件知识图谱"
-    title_en: "Software knowledge graph"
-    description: "围绕软件知识的抽取、融合、检索与推理，为智能开发工具提供可复用的知识支撑。"
-    description_en: "Extract, integrate, retrieve, and reason over software knowledge to support intelligent development tools with reusable knowledge."
-    icon: "fa-diagram-project"
-    image: "/images/home/knowledge-graph.webp"
-    url: "/research/"
+- key: featx
+  label: 智能代码编辑
+  label_en: Intelligent code editing
+  title: FeatX
+  title_en: FeatX
+  description: 从功能特征视角理解仓库级代码，面向复杂代码库提供智能编辑与演进支持。
+  description_en: Understand repository-level code through functional features and
+    support intelligent editing and evolution for complex codebases.
+  icon: fa-code-branch
+  image: /images/home/featx.webp
+  url: /patents/
+- key: flowgen
+  label: 低代码智能化
+  label_en: Low-code intelligence
+  title: FlowGen
+  title_en: FlowGen
+  description: 面向低代码场景的工作流智能生成系统，连接软件知识、业务意图与工程流程。
+  description_en: An intelligent workflow generation system for low-code scenarios,
+    connecting software knowledge, business intent, and engineering processes.
+  icon: fa-wand-magic-sparkles
+  image: /images/home/flowgen.webp
+  url: /patents/
+- key: knowledge-graph
+  label: 知识增强软件工程
+  label_en: Knowledge-enhanced engineering
+  title: 软件知识图谱
+  title_en: Software knowledge graph
+  description: 围绕软件知识的抽取、融合、检索与推理，为智能开发工具提供可复用的知识支撑。
+  description_en: Extract, integrate, retrieve, and reason over software knowledge
+    to support intelligent development tools with reusable knowledge.
+  icon: fa-diagram-project
+  image: /images/home/knowledge-graph.webp
+  url: /research/
+team_gallery:
+- /images/home/team-gallery/team-group.jpg
+- /images/home/team-gallery/811f25ea65be317804995a79100bd7a9.jpg
+- /images/home/team-gallery/123051e8da49ace42632438f99af1ab9.jpg

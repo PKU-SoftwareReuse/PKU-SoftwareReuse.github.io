@@ -32,6 +32,9 @@
       {% if author.email and author.email != "" %}
         <li class="author__desktop"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ author.email }}</li>
       {% endif %}
+      {% if author.external_url and author.external_url != "" and author.external_url_override != true %}
+        <li><a href="{{ author.external_url }}" rel="external"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i><span data-i18n-zh="个人主页" data-i18n-en="Website">个人主页</span></a></li>
+      {% endif %}
 
       <!-- Font Awesome icons / Academic websites -->
       {% if author.academia and author.academia != "" %}

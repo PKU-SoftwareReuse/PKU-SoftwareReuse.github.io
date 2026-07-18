@@ -102,12 +102,14 @@ permalink: /people/
           {% endif %}
           {% assign person_path = "/people/" | append: person_file | append: "/" %}
           {% assign person_href = person_path | prepend: base_path %}
-          {% if data.external_url and data.external_url != "" %}
+          {% assign external_url_overrides_profile = false %}
+          {% if data.external_url and data.external_url != "" and data.external_url_override == true %}
             {% assign person_href = data.external_url %}
+            {% assign external_url_overrides_profile = true %}
           {% endif %}
 
           <li>
-          <a href="{{ person_href | escape }}" class="person-card{% if group_name == '负责人' %} person-card--leader{% endif %}"{% if data.external_url and data.external_url != "" %} rel="external"{% endif %}>
+          <a href="{{ person_href | escape }}" class="person-card{% if group_name == '负责人' %} person-card--leader{% endif %}"{% if external_url_overrides_profile %} rel="external"{% endif %}>
             {%- comment -%} 使用 avatar 字段，若为空或 profile.png 则显示名字首字 {%- endcomment -%}
             {% if card_avatar and card_avatar != "profile.png" and card_avatar != "" %}
               <img src="{{ base_path }}/avatars/{{ card_avatar }}" alt="{{ data.name }}" class="person-avatar{% if group_name == '负责人' %} person-avatar--leader person-avatar--{{ person_file | downcase }}{% endif %}">

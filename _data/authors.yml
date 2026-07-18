@@ -67,13 +67,14 @@ Zexiong Ma:
   bio: 软件复用研究组博士研究生（直博），研究方向为软件工程
   employer: 北京大学
   email: ''
-  github: ''
+  github: mizersy
   orcid: ''
-  googlescholar: ''
+  googlescholar: https://scholar.google.com/citations?user=jmZifrkAAAAJ&hl=en
   research: 软件工程
   project: ''
   order: 401
   external_url: https://mizersy.github.io/
+  external_url_override: true
 Yuxuan Li:
   name: 李宇轩
   name_en: Yuxuan Li
@@ -204,6 +205,8 @@ Xutian Li:
   research: "软件工程\r\n人工智能"
   project: 低代码
   order: 107
+  external_url: https://lixutian.github.io
+  external_url_override: false
 Yifeng Zhu:
   name: 朱奕凤
   name_en: Yifeng Zhu

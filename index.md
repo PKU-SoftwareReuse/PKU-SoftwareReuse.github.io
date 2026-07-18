@@ -11,6 +11,13 @@ permalink: /
 {% unless custom_hero %}{% assign custom_hero = site.static_files | where: "path", "/images/home/hero.png" | first %}{% endunless %}
 {% assign latest_post = site.posts | sort: "date" | reverse | first %}
 {% assign recent_publications = site.publications | sort: "year" | reverse %}
+{% assign active_member_types = "教授|研究员|博士生|硕士生|本科生" | split: "|" %}
+{% assign active_member_count = 0 %}
+{% for author_item in site.data.authors %}
+  {% if active_member_types contains author_item[1].identity_type %}
+    {% assign active_member_count = active_member_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
 
 <section class="home-hero"{% if custom_hero %} style="--home-hero-image: url('{{ base_path }}{{ custom_hero.path }}')"{% endif %}>
   <div class="home-container home-hero__inner">
@@ -28,7 +35,7 @@ permalink: /
         </a>
       </div>
       <dl class="home-stats" aria-label="课题组概况">
-        <div><dt>{{ site.data.authors.size }}</dt><dd data-i18n-key="home.stats.group">团队成员</dd></div>
+        <div><dt>{{ active_member_count }}</dt><dd data-i18n-key="home.stats.group">团队成员</dd></div>
         <div><dt>{{ site.publications.size }}</dt><dd data-i18n-key="home.stats.papers">代表论文</dd></div>
         <div><dt>{{ site.patents.size }}</dt><dd data-i18n-key="home.stats.ip">专利软著</dd></div>
         <div><dt>3</dt><dd data-i18n-key="home.stats.areas">研究方向</dd></div>
@@ -72,26 +79,38 @@ permalink: /
         {% assign team_photo = site.static_files | where: "path", "/images/home/team-group.webp" | first %}
         {% unless team_photo %}{% assign team_photo = site.static_files | where: "path", "/images/home/team-group.jpg" | first %}{% endunless %}
         {% unless team_photo %}{% assign team_photo = site.static_files | where: "path", "/images/home/team-group.png" | first %}{% endunless %}
+        {% assign configured_team_gallery = site.data.home.team_gallery %}
         {% assign team_gallery = site.static_files | where_exp: "item", "item.path contains '/images/home/team-gallery/'" | sort: "path" %}
-        {% if team_gallery.size > 0 or team_photo %}
+        {% if configured_team_gallery %}
+          {% assign team_gallery_size = configured_team_gallery.size %}
+        {% else %}
+          {% assign team_gallery_size = team_gallery.size %}
+        {% endif %}
+        {% if team_gallery_size > 0 or team_photo %}
           <div class="home-team__photo-stack" data-photo-stack data-interval="5200" aria-label="团队活动照片">
             <div class="home-team__photo-stack__slides">
-              {% if team_gallery.size > 0 %}
+              {% if configured_team_gallery.size > 0 %}
+                {% for photo_path in configured_team_gallery %}
+                  <figure class="home-team__photo-slide{% if forloop.first %} is-active{% elsif forloop.index == 2 %} is-next{% endif %}" data-photo-slide data-photo-slide-index="{{ forloop.index0 }}" aria-hidden="{% unless forloop.first %}true{% else %}false{% endunless %}">
+                    <img src="{{ base_path }}{{ photo_path }}" alt="软件复用研究组团队活动照片 {{ forloop.index }}" decoding="async"{% unless forloop.first %} loading="lazy"{% endunless %}>
+                  </figure>
+                {% endfor %}
+              {% elsif team_gallery.size > 0 %}
                 {% for photo in team_gallery %}
                   <figure class="home-team__photo-slide{% if forloop.first %} is-active{% elsif forloop.index == 2 %} is-next{% endif %}" data-photo-slide data-photo-slide-index="{{ forloop.index0 }}" aria-hidden="{% unless forloop.first %}true{% else %}false{% endunless %}">
-                    <img src="{{ base_path }}{{ photo.path }}" alt="软件复用研究组团队活动照片 {{ forloop.index }}">
+                    <img src="{{ base_path }}{{ photo.path }}" alt="软件复用研究组团队活动照片 {{ forloop.index }}" decoding="async"{% unless forloop.first %} loading="lazy"{% endunless %}>
                   </figure>
                 {% endfor %}
               {% else %}
                 <figure class="home-team__photo-slide is-active" data-photo-slide data-photo-slide-index="0" aria-hidden="false">
-                  <img src="{{ base_path }}{{ team_photo.path }}" alt="软件复用研究组团队合影">
+                  <img src="{{ base_path }}{{ team_photo.path }}" alt="软件复用研究组团队合影" decoding="async">
                 </figure>
               {% endif %}
             </div>
-            {% if team_gallery.size > 1 %}
+            {% if team_gallery_size > 1 %}
               <div class="home-team__photo-stack__controls" role="tablist" aria-label="团队活动照片切换">
-                {% for photo in team_gallery %}
-                  <button type="button" data-photo-slide-button="{{ forloop.index0 }}" role="tab" aria-label="查看第 {{ forloop.index }} 张团队照片" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"></button>
+                {% for photo_index in (1..team_gallery_size) %}
+                  <button type="button" data-photo-slide-button="{{ forloop.index0 }}" role="tab" aria-label="查看第 {{ photo_index }} 张团队照片" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"></button>
                 {% endfor %}
               </div>
             {% endif %}
