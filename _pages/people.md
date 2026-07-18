@@ -118,7 +118,7 @@ permalink: /people/
             <div class="person-name" data-i18n-zh="{{ data.name | escape }}" data-i18n-en="{{ data.name_en | default: data.name | escape }}">{{ data.name }}</div>
 
             {%- comment -%} 显示 identity_type-identity_type_note，如无 identity_type_note 则不显示- {%- endcomment -%}
-            <span class="person-identity" data-identity-type="{{ data.identity_type | escape }}" data-identity-note="{{ data.identity_type_note | default: '' | escape }}">
+            <span class="person-identity" data-identity-type-zh="{{ data.identity_type | escape }}" data-identity-type-en="{{ data.identity_type_en | default: data.identity_type | escape }}" data-identity-note-zh="{{ data.identity_type_note | default: '' | escape }}" data-identity-note-en="{{ data.identity_type_note_en | default: data.identity_type_note | escape }}">
               {% if data.identity_type_note and data.identity_type_note != "" %}
                 {{ data.identity_type }}-{{ data.identity_type_note }}
               {% else %}

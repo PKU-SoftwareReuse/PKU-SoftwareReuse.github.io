@@ -173,7 +173,7 @@
   <div class="author__info-section">
     {% if author.identity_type %}
       <div class="author__info-item">
-        <span class="author__info-label">
+        <span class="author__info-label" data-identity-type-zh="{{ author.identity_type | escape }}" data-identity-type-en="{{ author.identity_type_en | default: author.identity_type | escape }}" data-identity-note-zh="{{ author.identity_type_note | default: '' | escape }}" data-identity-note-en="{{ author.identity_type_note_en | default: author.identity_type_note | escape }}" data-identity-grade="{{ author.grade | default: '' | escape }}" data-identity-separator=" - ">
           {{ author.identity_type }}
           {% if author.identity_type_note and author.identity_type_note != "" %}
             - {{ author.identity_type_note }}

@@ -236,22 +236,6 @@
 
   function applyLanguage(language) {
     var copy = languageCopy[language] || languageCopy.zh;
-    var identityTypes = {
-      '教授': 'Professor',
-      '研究员': 'Researcher',
-      '博士': 'PhD alumni',
-      '博士生': 'PhD student',
-      '硕士': 'Master\'s alumni',
-      '硕士生': 'Master\'s student',
-      '本科生': 'Undergraduate',
-      '已毕业': 'Alumni'
-    };
-    var identityNotes = {
-      '杰青': 'Distinguished Young Scholar',
-      '直博': 'Direct-entry PhD',
-      '强军硕士': 'Military Graduate Program',
-      '北京大学': 'Peking University'
-    };
     root.dataset.language = language;
     root.lang = language === 'en' ? 'en' : 'zh-CN';
 
@@ -271,15 +255,12 @@
       element.textContent = language === 'en' ? translateNameList(element.dataset.nameOriginal) : element.dataset.nameOriginal;
     });
 
-    document.querySelectorAll('[data-identity-type]').forEach(function (element) {
-      var type = element.dataset.identityType || '';
-      var note = element.dataset.identityNote || '';
-      var separator = element.dataset.identitySeparator || '-';
-      if (language === 'en') {
-        element.textContent = (identityTypes[type] || type) + (note ? ' · ' + (identityNotes[note] || note) : '');
-      } else {
-        element.textContent = type + (note ? separator + note : '');
-      }
+    document.querySelectorAll('[data-identity-type-zh]').forEach(function (element) {
+      var type = language === 'en' ? (element.dataset.identityTypeEn || element.dataset.identityTypeZh) : element.dataset.identityTypeZh;
+      var note = language === 'en' ? (element.dataset.identityNoteEn || element.dataset.identityNoteZh) : element.dataset.identityNoteZh;
+      var grade = element.dataset.identityGrade || '';
+      var separator = element.dataset.identitySeparator || (language === 'en' ? ' · ' : '-');
+      element.textContent = type + (note ? separator + note : '') + (grade ? separator + grade : '');
     });
 
     document.querySelectorAll('[data-i18n-aria-key]').forEach(function (element) {

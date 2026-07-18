@@ -55,13 +55,13 @@ permalink: /
         <a class="text-link" href="{{ base_path }}/people/"><span data-i18n-key="home.team.link">认识团队成员</span> <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 
         <div class="home-leaders">
-          {% assign leader_keys = "Xie Bing|Zou Yanzhen" | split: "|" %}
+          {% assign leader_keys = "Bing Xie|Yanzhen Zou" | split: "|" %}
           {% for leader_key in leader_keys %}
             {% assign leader = site.data.authors[leader_key] %}
             {% assign leader_slug = leader.key | replace: " ", "-" %}
             <a class="home-leader home-leader--{{ leader_slug | downcase }}" href="{{ base_path }}/people/{{ leader_slug }}/">
               <img src="{{ base_path }}/avatars/{{ leader.avatar_small }}" alt="{{ leader.name }}">
-              <span><strong data-i18n-zh="{{ leader.name | escape }}" data-i18n-en="{{ leader.name_en | default: leader.name | escape }}">{{ leader.name }}</strong><small data-identity-type="{{ leader.identity_type | escape }}" data-identity-note="{{ leader.identity_type_note | default: '' | escape }}" data-identity-separator=" · ">{{ leader.identity_type }}{% if leader.identity_type_note != '' %} · {{ leader.identity_type_note }}{% endif %}</small></span>
+              <span><strong data-i18n-zh="{{ leader.name | escape }}" data-i18n-en="{{ leader.name_en | default: leader.name | escape }}">{{ leader.name }}</strong><small data-identity-type-zh="{{ leader.identity_type | escape }}" data-identity-type-en="{{ leader.identity_type_en | default: leader.identity_type | escape }}" data-identity-note-zh="{{ leader.identity_type_note | default: '' | escape }}" data-identity-note-en="{{ leader.identity_type_note_en | default: leader.identity_type_note | escape }}" data-identity-separator=" · ">{{ leader.identity_type }}{% if leader.identity_type_note != '' %} · {{ leader.identity_type_note }}{% endif %}</small></span>
               <i class="fas fa-arrow-right" aria-hidden="true"></i>
             </a>
           {% endfor %}
