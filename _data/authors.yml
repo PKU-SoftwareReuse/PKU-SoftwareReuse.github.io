@@ -404,7 +404,7 @@ Yujie Shi:
   key: Yujie Shi
   identity_type: 本科生
   identity_type_en: Undergraduate
-  identity_type_note: 北京大学
+  identity_type_note: ''
   identity_type_note_en: Peking University
   grade: 大三
   avatar_big: profile.png
@@ -418,13 +418,15 @@ Yujie Shi:
   research: 软件工程
   project: 低代码
   order: 305
+  external_url: ''
+  external_url_override: false
 Wanning Li:
   name: 李婉宁
   name_en: Wanning Li
   key: Wanning Li
   identity_type: 本科生
   identity_type_en: Undergraduate
-  identity_type_note: 北京大学
+  identity_type_note: ''
   identity_type_note_en: Peking University
   grade: 大三
   avatar_big: profile.png
@@ -438,6 +440,8 @@ Wanning Li:
   research: 软件工程
   project: OS驱动迁移
   order: 306
+  external_url: ''
+  external_url_override: false
 Yue Wang:
   name: 王玥
   name_en: Yue Wang
@@ -744,7 +748,7 @@ Xuanyan Chen:
   key: Xuanyan Chen
   identity_type: 本科生
   identity_type_en: Undergraduate
-  identity_type_note: 直博
+  identity_type_note: ''
   identity_type_note_en: Direct-entry PhD
   grade: 大三
   avatar_big: ''
@@ -758,6 +762,8 @@ Xuanyan Chen:
   research: ''
   project: ''
   order: 307
+  external_url: ''
+  external_url_override: false
 Jingbo Wang:
   name: 王靖博
   name_en: Jingbo Wang
