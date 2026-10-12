@@ -136,8 +136,8 @@ Tongwei Deng:
   identity_type_note_en: Direct-entry PhD
   grade: 2024级
   employer: 北京大学
-  email: ''
-  bio: 软件复用研究组博士研究生（直博），研究方向为软件工程
+  email: dtw@stu.pku.edu.cn
+  bio: https://6643789wsx.github.io/
   avatar_big: profile.png
   avatar_small: profile.png
   research: 软件工程
@@ -145,9 +145,9 @@ Tongwei Deng:
   order: 104
   external_url: https://6643789wsx.github.io/
   external_url_override: true
-  github: ''
-  orcid: ''
-  googlescholar: ''
+  github: https://github.com/6643789wsx
+  orcid: https://orcid.org/0009-0003-8699-8229
+  googlescholar: https://scholar.google.com/citations?user=gxDzdlMAAAAJ&hl=zh-CN
 Siqiao Yan:
   name: 闫思桥
   name_en: Siqiao Yan
