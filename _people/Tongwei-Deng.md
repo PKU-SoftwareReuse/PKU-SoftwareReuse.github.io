@@ -11,7 +11,7 @@ author_profile: true
 
 邓同蔚，软件复用研究组博士研究生（直博），研究方向为软件工程，目前参与字节相关项目。
 
-个人主页 https://6643789wsx.github.io/
+[个人主页](https://6643789wsx.github.io/)
 
 ---
 
@@ -20,6 +20,7 @@ section {
   margin-bottom: 25px;
 }
 </style>
+
 
 
 
