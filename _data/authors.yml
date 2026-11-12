@@ -237,7 +237,7 @@ Jinyu Zhu:
   name: 朱锦瑜
   name_en: Jinyu Zhu
   key: Jinyu Zhu
-  identity_type: 本科生
+  identity_type: 博士生
   identity_type_en: Undergraduate
   identity_type_note: 直博
   identity_type_note_en: Direct-entry PhD
@@ -253,11 +253,13 @@ Jinyu Zhu:
   research: 软件工程
   project: 502所
   order: 301
+  external_url: ''
+  external_url_override: false
 Bo Xiong:
   name: 熊博
   name_en: Bo Xiong
   key: Bo Xiong
-  identity_type: 本科生
+  identity_type: 博士生
   identity_type_en: Undergraduate
   identity_type_note: 直博
   identity_type_note_en: Direct-entry PhD
@@ -274,6 +276,7 @@ Bo Xiong:
   project: 低代码
   order: 302
   external_url: ''
+  external_url_override: false
 Xianlin Zhao:
   name: 赵衔麟
   name_en: Xianlin Zhao
@@ -367,7 +370,7 @@ Hongyi Yang:
   name: 杨泓奕
   name_en: Hongyi Yang
   key: Hongyi Yang
-  identity_type: 本科生
+  identity_type: 硕士生
   identity_type_en: Undergraduate
   identity_type_note: ''
   identity_type_note_en: ''
@@ -383,11 +386,13 @@ Hongyi Yang:
   research: 软件工程
   project: AI.OS
   order: 303
+  external_url: ''
+  external_url_override: false
 Zhengwei Su:
   name: 苏政玮
   name_en: Zhengwei Su
   key: Zhengwei Su
-  identity_type: 本科生
+  identity_type: 硕士生
   identity_type_en: Undergraduate
   identity_type_note: ''
   identity_type_note_en: ''
@@ -403,26 +408,6 @@ Zhengwei Su:
   research: 软件工程
   project: OS驱动迁移
   order: 304
-Yujie Shi:
-  name: 史宇颉
-  name_en: Yujie Shi
-  key: Yujie Shi
-  identity_type: 本科生
-  identity_type_en: Undergraduate
-  identity_type_note: ''
-  identity_type_note_en: Peking University
-  grade: 大三
-  avatar_big: profile.png
-  avatar_small: profile.png
-  bio: 软件复用研究组成员
-  employer: 北京大学
-  email: ''
-  github: ''
-  orcid: ''
-  googlescholar: ''
-  research: 软件工程
-  project: 低代码
-  order: 305
   external_url: ''
   external_url_override: false
 Wanning Li:
@@ -433,7 +418,7 @@ Wanning Li:
   identity_type_en: Undergraduate
   identity_type_note: ''
   identity_type_note_en: Peking University
-  grade: 大三
+  grade: 2027级
   avatar_big: profile.png
   avatar_small: profile.png
   bio: 软件复用研究组成员
@@ -755,7 +740,7 @@ Xuanyan Chen:
   identity_type_en: Undergraduate
   identity_type_note: ''
   identity_type_note_en: Direct-entry PhD
-  grade: 大三
+  grade: 2027级
   avatar_big: ''
   avatar_small: ''
   bio: ''
@@ -769,26 +754,6 @@ Xuanyan Chen:
   order: 307
   external_url: ''
   external_url_override: false
-Jingbo Wang:
-  name: 王靖博
-  name_en: Jingbo Wang
-  key: Jingbo Wang
-  identity_type: 本科生
-  identity_type_en: Undergraduate
-  identity_type_note: ''
-  identity_type_note_en: ''
-  grade: 大三
-  avatar_big: ''
-  avatar_small: ''
-  bio: ''
-  employer: ''
-  email: ''
-  github: ''
-  orcid: ''
-  googlescholar: ''
-  research: ''
-  project: ''
-  order: 308
 Zhebang Hua:
   name: 华哲邦
   name_en: Zhebang Hua
